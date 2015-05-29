@@ -7,7 +7,11 @@
 #                                                                                            #
 # This code was intended for the proteomic analysis of our TMT 6-plex labeled SKBR3b         #
 # exososomes using the TMT 129, 130 and 131 tags. This script is used to create tables from  #
+<<<<<<< HEAD
 # the cluster results. Used after ClusterAnalysis.R.                                         #
+=======
+# the cluster results. Used after ClusterAnalysis.R and Make_Plots.R.                        #
+>>>>>>> 5cdeaf4b7e41f44a5a78e3102cf3813c75cfb344
 #                                                                                            #
 ##############################################################################################
 
@@ -19,7 +23,12 @@ dir.create("Tables")
 
 Proteins <- read.csv("ClusterResults.csv")
 
+<<<<<<< HEAD
 Proteins <- rename(Proteins, replace = c("X" = "Protein_ID"))
+=======
+#Proteins <- rename(Proteins, replace = c("X" = "Protein_ID"))
+names(Proteins)[1] <- "Protein_ID"
+>>>>>>> 5cdeaf4b7e41f44a5a78e3102cf3813c75cfb344
 
 # Fix Accession numbers:
 accession <- gsub("^.*?\\|","",Proteins$Protein_ID)

@@ -97,10 +97,17 @@
 "P31949","S100A11","Protein S100-A11 ","","Non-Exosome"
 "P33552","CKS2","Cyclin-dependent kinases regulatory subunit 2 ","","Non-Exosome"
 "P35268","RPL22","60S ribosomal protein L22 ","GO:0005829 Cytosol","Non-Exosome"
+<<<<<<< HEAD
 "P35367","HRH1","Histamine H1 receptor ","GO:0005886 Plasma Membrane","Non-Exosome"
 "P36542-2","ATP5C1","Isoform Heart of ATP synthase subunit gamma; mitochondrial ","GO:0070013 Intracellular Organelle Lumen; GO:0005759 Mitochondrial Matrix; GO:0031090 Organelle Membrane; GO:0031966 Mitochondrial Membrane","Non-Exosome"
 "P37802-2","TAGLN2","Isoform 2 of Transgelin-2 ","GO:0031090 Organelle Membrane; GO:0031965 Nuclear Membrane; GO:0005886 Plasma Membrane","Non-Exosome"
 "P40222","TXLNA","Alpha-taxilin ","","Non-Exosome"
+=======
+"P35367","HRH1","Histamine H1 receptor ","GO:0005886 Plasma Membrane",NA
+"P36542-2","ATP5C1","Isoform Heart of ATP synthase subunit gamma; mitochondrial ","GO:0070013 Intracellular Organelle Lumen; GO:0005759 Mitochondrial Matrix; GO:0031090 Organelle Membrane; GO:0031966 Mitochondrial Membrane","Non-Exosome"
+"P37802-2","TAGLN2","Isoform 2 of Transgelin-2 ","GO:0031090 Organelle Membrane; GO:0031965 Nuclear Membrane; GO:0005886 Plasma Membrane","Non-Exosome"
+"P40222","TXLNA","Alpha-taxilin ","","Exosome"
+>>>>>>> 5cdeaf4b7e41f44a5a78e3102cf3813c75cfb344
 "P42766","RPL35","60S ribosomal protein L35 ","GO:0070013 Intracellular Organelle Lumen; GO:0031981 Nuclear Lumen; GO:0005829 Cytosol","Non-Exosome"
 "P42892-2","ECE1","Isoform A of Endothelin-converting enzyme 1 ","GO:0031090 Organelle Membrane; GO:0010008 Endosome Membrane; GO:0005886 Plasma Membrane","Exosome"
 "P45954","ACADSB","Short/branched chain specific acyl-CoA dehydrogenase; mitochondrial ","GO:0070013 Intracellular Organelle Lumen; GO:0005759 Mitochondrial Matrix","Non-Exosome"
@@ -126,7 +133,11 @@
 "P53794","SLC5A3","Sodium/myo-inositol cotransporter ","GO:0005886 Plasma Membrane","Exosome"
 "P54577","YARS","Tyrosine--tRNA ligase; cytoplasmic ","","Non-Exosome"
 "P54886-2","ALDH18A1","Isoform Short of Delta-1-pyrroline-5-carboxylate synthase ","GO:0031090 Organelle Membrane; GO:0031966 Mitochondrial Membrane","Non-Exosome"
+<<<<<<< HEAD
 "P55010","EIF5","Eukaryotic translation initiation factor 5 ","GO:0005829 Cytosol","Non-Exosome"
+=======
+"P55010","EIF5","Eukaryotic translation initiation factor 5 ","GO:0005829 Cytosol","Exosome"
+>>>>>>> 5cdeaf4b7e41f44a5a78e3102cf3813c75cfb344
 "P55265-2","ADAR","Isoform 2 of Double-stranded RNA-specific adenosine deaminase ","GO:0070013 Intracellular Organelle Lumen; GO:0031981 Nuclear Lumen","Non-Exosome"
 "P55769","NHP2L1","NHP2-like protein 1 ","GO:0070013 Intracellular Organelle Lumen; GO:0031981 Nuclear Lumen","Non-Exosome"
 "P56182","RRP1","Ribosomal RNA processing protein 1 homolog A ","GO:0070013 Intracellular Organelle Lumen; GO:0031981 Nuclear Lumen","Non-Exosome"
@@ -146,7 +157,11 @@
 "P62861","FAU","40S ribosomal protein S30 ","GO:0005829 Cytosol","Non-Exosome"
 "P62906","RPL10A","60S ribosomal protein L10a ","GO:0005829 Cytosol","Non-Exosome"
 "P62995-3","TRA2B","Isoform 3 of Transformer-2 protein homolog beta ","","Non-Exosome"
+<<<<<<< HEAD
 "P63218","GNG5","Guanine nucleotide-binding protein G(I)/G(S)/G(O) subunit gamma-5 ","GO:0005886 Plasma Membrane","Non-Exosome"
+=======
+"P63218","GNG5","Guanine nucleotide-binding protein G(I)/G(S)/G(O) subunit gamma-5 ","GO:0005886 Plasma Membrane",NA
+>>>>>>> 5cdeaf4b7e41f44a5a78e3102cf3813c75cfb344
 "P63279","UBE2I","SUMO-conjugating enzyme UBC9 ","GO:0070013 Intracellular Organelle Lumen; GO:0031981 Nuclear Lumen","Exosome"
 "P67870","CSNK2B","Casein kinase II subunit beta ","GO:0005829 Cytosol","Non-Exosome"
 "P68036-2","UBE2L3","Isoform 2 of Ubiquitin-conjugating enzyme E2 L3 ","","Non-Exosome"
@@ -292,7 +307,11 @@
 "O00159-2","MYO1C","Isoform 2 of Unconventional myosin-Ic ","GO:0070013 Intracellular Organelle Lumen; GO:0031981 Nuclear Lumen; GO:0005886 Plasma Membrane","Non-Exosome"
 "O43795-2","MYO1B","Isoform 2 of Unconventional myosin-Ib ","","Exosome"
 "Q70J99-3","UNC13D","Isoform 3 of Protein unc-13 homolog D ","","Non-Exosome"
+<<<<<<< HEAD
 "O00161-2","SNAP23","Isoform SNAP-23b of Synaptosomal-associated protein 23 ","GO:0005886 Plasma Membrane","Non-Exosome"
+=======
+"O00161-2","SNAP23","Isoform SNAP-23b of Synaptosomal-associated protein 23 ","GO:0005886 Plasma Membrane","Exosome"
+>>>>>>> 5cdeaf4b7e41f44a5a78e3102cf3813c75cfb344
 "O00170","AIP","AH receptor-interacting protein ","GO:0005829 Cytosol","Non-Exosome"
 "O00203-3","AP3B1","Isoform 2 of AP-3 complex subunit beta-1 ","GO:0005886 Plasma Membrane","Non-Exosome"
 "O00231-2","PSMD11","Isoform 2 of 26S proteasome non-ATPase regulatory subunit 11 ","GO:0005829 Cytosol","Non-Exosome"
@@ -381,7 +400,11 @@
 "O60568","PLOD3","Procollagen-lysine;2-oxoglutarate 5-dioxygenase 3 ","","Non-Exosome"
 "O60610-2","DIAPH1","Isoform 2 of Protein diaphanous homolog 1 ","GO:0005886 Plasma Membrane","Non-Exosome"
 "O60664-3","PLIN3","Isoform 3 of Perilipin-3 ","GO:0005886 Plasma Membrane","Non-Exosome"
+<<<<<<< HEAD
 "P52294","KPNA1","Importin subunit alpha-5 ","",NA
+=======
+"P52294","KPNA1","Importin subunit alpha-5 ","","Exosome"
+>>>>>>> 5cdeaf4b7e41f44a5a78e3102cf3813c75cfb344
 "O60684","KPNA6","Importin subunit alpha-7 ","","Non-Exosome"
 "O60716-10","CTNND1","Isoform 2AB of Catenin delta-1 ","GO:0005886 Plasma Membrane","Exosome"
 "O60762","DPM1","Dolichol-phosphate mannosyltransferase subunit 1 ","GO:0031090 Organelle Membrane; GO:0005789 Endoplasmic Reticulum Membrane","Non-Exosome"
@@ -393,7 +416,11 @@
 "O75054","IGSF3","Immunoglobulin superfamily member 3 ","","Exosome"
 "O75083","WDR1","WD repeat-containing protein 1 ","GO:0005829 Cytosol","Non-Exosome"
 "O75165","DNAJC13","DnaJ homolog subfamily C member 13 ","","Non-Exosome"
+<<<<<<< HEAD
 "O75190-2","DNAJB6","Isoform B of DnaJ homolog subfamily B member 6 ","","Non-Exosome"
+=======
+"O75190-2","DNAJB6","Isoform B of DnaJ homolog subfamily B member 6 ","","Exosome"
+>>>>>>> 5cdeaf4b7e41f44a5a78e3102cf3813c75cfb344
 "O75190","DNAJB6","DnaJ homolog subfamily B member 6 ","","Non-Exosome"
 "O75197","LRP5","Low-density lipoprotein receptor-related protein 5 ","","Exosome"
 "O75306-2","NDUFS2","Isoform 2 of NADH dehydrogenase [ubiquinone] iron-sulfur protein 2; mitochondrial ","GO:0031090 Organelle Membrane; GO:0031966 Mitochondrial Membrane","Non-Exosome"
@@ -470,8 +497,13 @@
 "P00491","PNP","Purine nucleoside phosphorylase ","GO:0005829 Cytosol","Non-Exosome"
 "P00492","HPRT1","Hypoxanthine-guanine phosphoribosyltransferase ","GO:0005829 Cytosol","Non-Exosome"
 "P00505","GOT2","Aspartate aminotransferase; mitochondrial ","GO:0070013 Intracellular Organelle Lumen; GO:0005759 Mitochondrial Matrix; GO:0031090 Organelle Membrane; GO:0031966 Mitochondrial Membrane; GO:0005886 Plasma Membrane","Non-Exosome"
+<<<<<<< HEAD
 "J3KTI5","ERBB2","Receptor tyrosine-protein kinase erbB-2 (Fragment) ","",NA
 "P04626-2","ERBB2","Isoform 2 of Receptor tyrosine-protein kinase erbB-2 ","",NA
+=======
+"J3KTI5","ERBB2","Receptor tyrosine-protein kinase erbB-2 (Fragment) ","","Exosome"
+"P04626-2","ERBB2","Isoform 2 of Receptor tyrosine-protein kinase erbB-2 ","","Exosome"
+>>>>>>> 5cdeaf4b7e41f44a5a78e3102cf3813c75cfb344
 "P00533","EGFR","Epidermal growth factor receptor ","GO:0031090 Organelle Membrane; GO:0005886 Plasma Membrane","Exosome"
 "P00558","PGK1","Phosphoglycerate kinase 1 ","","Non-Exosome"
 "P00568","AK1","Adenylate kinase isoenzyme 1 ","GO:0005829 Cytosol; GO:0005886 Plasma Membrane","Non-Exosome"
@@ -486,7 +518,11 @@
 "P01024","C3","Complement C3 ","","Non-Exosome"
 "P01031","C5","Complement C5 ","GO:0005886 Plasma Membrane","Non-Exosome"
 "P01130-2","LDLR","Isoform 2 of Low-density lipoprotein receptor ","GO:0031090 Organelle Membrane; GO:0010008 Endosome Membrane; GO:0005886 Plasma Membrane","Non-Exosome"
+<<<<<<< HEAD
 "Q29960-2","HLA-C","Isoform 2 of HLA class I histocompatibility antigen; Cw-16 alpha chain ","GO:0005886 Plasma Membrane","Non-Exosome"
+=======
+"Q29960-2","HLA-C","Isoform 2 of HLA class I histocompatibility antigen; Cw-16 alpha chain ","GO:0005886 Plasma Membrane",NA
+>>>>>>> 5cdeaf4b7e41f44a5a78e3102cf3813c75cfb344
 "Q9TNN7","HLA-C","HLA class I histocompatibility antigen; Cw-5 alpha chain ","GO:0005886 Plasma Membrane","Exosome"
 "Q09160","HLA-A","HLA class I histocompatibility antigen; A-80 alpha chain ","GO:0031090 Organelle Membrane; GO:0000139 Golgi Membrane; GO:0010008 Endosome Membrane; GO:0005886 Plasma Membrane","Non-Exosome"
 "P30499","HLA-C","HLA class I histocompatibility antigen; Cw-1 alpha chain ","GO:0005886 Plasma Membrane","Exosome"
@@ -495,7 +531,11 @@
 "P30481","HLA-B","HLA class I histocompatibility antigen; B-44 alpha chain ","GO:0005886 Plasma Membrane","Exosome"
 "P18464","HLA-B","HLA class I histocompatibility antigen; B-51 alpha chain ","GO:0005886 Plasma Membrane","Exosome"
 "P04222","HLA-C","HLA class I histocompatibility antigen; Cw-3 alpha chain ","GO:0005886 Plasma Membrane","Exosome"
+<<<<<<< HEAD
 "Q95604","HLA-C","HLA class I histocompatibility antigen; Cw-17 alpha chain ","GO:0005886 Plasma Membrane","Non-Exosome"
+=======
+"Q95604","HLA-C","HLA class I histocompatibility antigen; Cw-17 alpha chain ","GO:0005886 Plasma Membrane","Exosome"
+>>>>>>> 5cdeaf4b7e41f44a5a78e3102cf3813c75cfb344
 "P10321","HLA-C","HLA class I histocompatibility antigen; Cw-7 alpha chain ","GO:0005886 Plasma Membrane","Exosome"
 "P30459","HLA-A","HLA class I histocompatibility antigen; A-74 alpha chain ","GO:0031090 Organelle Membrane; GO:0000139 Golgi Membrane; GO:0010008 Endosome Membrane; GO:0005886 Plasma Membrane","Exosome"
 "P30505","HLA-C","HLA class I histocompatibility antigen; Cw-8 alpha chain ","GO:0005886 Plasma Membrane","Exosome"
@@ -571,7 +611,11 @@
 "P08727","KRT19","Keratin; type I cytoskeletal 19 ","GO:0005886 Plasma Membrane","Non-Exosome"
 "P13645","KRT10","Keratin; type I cytoskeletal 10 ","","Non-Exosome"
 "P14923","JUP","Junction plakoglobin ","GO:0005829 Cytosol; GO:0005886 Plasma Membrane","Non-Exosome"
+<<<<<<< HEAD
 "P35222","CTNNB1","Catenin beta-1 ","GO:0070013 Intracellular Organelle Lumen; GO:0031981 Nuclear Lumen; GO:0005829 Cytosol; GO:0005886 Plasma Membrane","Non-Exosome"
+=======
+"P35222","CTNNB1","Catenin beta-1 ","GO:0070013 Intracellular Organelle Lumen; GO:0031981 Nuclear Lumen; GO:0005829 Cytosol; GO:0005886 Plasma Membrane","Exosome"
+>>>>>>> 5cdeaf4b7e41f44a5a78e3102cf3813c75cfb344
 "P35527","KRT9","Keratin; type I cytoskeletal 9 ","","Non-Exosome"
 "B4DXK4","KRT72","Keratin; type II cytoskeletal 72 ","","Non-Exosome"
 "Q7Z794","KRT77","Keratin; type II cytoskeletal 1b ","","Non-Exosome"
@@ -601,7 +645,11 @@
 "Q00535-2","CDK5","Isoform 2 of Cyclin-dependent kinase 5 ","GO:0005829 Cytosol","Non-Exosome"
 "E9PJF0","MAPK3","Mitogen-activated protein kinase 3 ","GO:0070013 Intracellular Organelle Lumen; GO:0031981 Nuclear Lumen; GO:0005829 Cytosol","Non-Exosome"
 "P27361-2","MAPK3","Isoform 2 of Mitogen-activated protein kinase 3 ","GO:0070013 Intracellular Organelle Lumen; GO:0031981 Nuclear Lumen; GO:0005829 Cytosol","Non-Exosome"
+<<<<<<< HEAD
 "P12931-2","SRC","Isoform 2 of Proto-oncogene tyrosine-protein kinase Src ","GO:0005829 Cytosol; GO:0005886 Plasma Membrane","Non-Exosome"
+=======
+"P12931-2","SRC","Isoform 2 of Proto-oncogene tyrosine-protein kinase Src ","GO:0005829 Cytosol; GO:0005886 Plasma Membrane","Exosome"
+>>>>>>> 5cdeaf4b7e41f44a5a78e3102cf3813c75cfb344
 "P10721-2","KIT","Isoform 2 of Mast/stem cell growth factor receptor Kit ","GO:0070013 Intracellular Organelle Lumen; GO:0031981 Nuclear Lumen; GO:0005886 Plasma Membrane","Non-Exosome"
 "P17948-5","FLT1","Isoform 5 of Vascular endothelial growth factor receptor 1 ","GO:0005886 Plasma Membrane","Non-Exosome"
 "P53667-2","LIMK1","Isoform 2 of LIM domain kinase 1 ","GO:0005886 Plasma Membrane","Exosome"
@@ -639,7 +687,11 @@
 "H0YNP5","ANXA2","Annexin (Fragment) ","GO:0005886 Plasma Membrane; GO:0031012 Extracellular Matrix","Non-Exosome"
 "A6NMY6","ANXA2P2","Putative annexin A2-like protein ","GO:0005886 Plasma Membrane; GO:0031012 Extracellular Matrix","Non-Exosome"
 "P07355-2","ANXA2","Isoform 2 of Annexin A2 ","GO:0005886 Plasma Membrane; GO:0031012 Extracellular Matrix","Non-Exosome"
+<<<<<<< HEAD
 "P02748","C9","Complement component C9 ","GO:0005886 Plasma Membrane","Non-Exosome"
+=======
+"P02748","C9","Complement component C9 ","GO:0005886 Plasma Membrane","Exosome"
+>>>>>>> 5cdeaf4b7e41f44a5a78e3102cf3813c75cfb344
 "P07384","CAPN1","Calpain-1 catalytic subunit ","GO:0005886 Plasma Membrane","Non-Exosome"
 "P07686","HEXB","Beta-hexosaminidase subunit beta ","","Non-Exosome"
 "P07737","PFN1","Profilin-1 ","","Non-Exosome"
@@ -889,7 +941,11 @@
 "P23919-2","DTYMK","Isoform 2 of Thymidylate kinase ","GO:0005829 Cytosol","Non-Exosome"
 "P24666-2","ACP1","Isoform 2 of Low molecular weight phosphotyrosine protein phosphatase ","","Non-Exosome"
 "P24752","ACAT1","Acetyl-CoA acetyltransferase; mitochondrial ","GO:0070013 Intracellular Organelle Lumen; GO:0005759 Mitochondrial Matrix; GO:0031090 Organelle Membrane; GO:0031966 Mitochondrial Membrane","Non-Exosome"
+<<<<<<< HEAD
 "P24821-2","TNC","Isoform 2 of Tenascin ","GO:0031012 Extracellular Matrix","Non-Exosome"
+=======
+"P24821-2","TNC","Isoform 2 of Tenascin ","GO:0031012 Extracellular Matrix",NA
+>>>>>>> 5cdeaf4b7e41f44a5a78e3102cf3813c75cfb344
 "B4DX52","DNAJB1","DnaJ homolog subfamily B member 1 ","GO:0070013 Intracellular Organelle Lumen; GO:0031981 Nuclear Lumen","Non-Exosome"
 "P25685","DNAJB1","DnaJ homolog subfamily B member 1 ","GO:0070013 Intracellular Organelle Lumen; GO:0031981 Nuclear Lumen","Non-Exosome"
 "Q9UBS4","DNAJB11","DnaJ homolog subfamily B member 11 ","GO:0070013 Intracellular Organelle Lumen; GO:0005788 Endoplasmic Reticulum Lumen","Non-Exosome"
@@ -1004,7 +1060,11 @@
 "P39023","RPL3","60S ribosomal protein L3 ","GO:0070013 Intracellular Organelle Lumen; GO:0031981 Nuclear Lumen; GO:0005829 Cytosol","Non-Exosome"
 "P39060-1","COL18A1","Isoform 2 of Collagen alpha-1(XVIII) chain ","GO:0031012 Extracellular Matrix","Exosome"
 "P39656","DDOST","Dolichyl-diphosphooligosaccharide--protein glycosyltransferase 48 kDa subunit ","GO:0031090 Organelle Membrane; GO:0005789 Endoplasmic Reticulum Membrane","Non-Exosome"
+<<<<<<< HEAD
 "P0C0L4-2","C4A","Isoform 2 of Complement C4-A ","","Non-Exosome"
+=======
+"P0C0L4-2","C4A","Isoform 2 of Complement C4-A ","",NA
+>>>>>>> 5cdeaf4b7e41f44a5a78e3102cf3813c75cfb344
 "P39748","FEN1","Flap endonuclease 1 ","","Exosome"
 "P40121-2","CAPG","Isoform 2 of Macrophage-capping protein ","","Non-Exosome"
 "P40227-2","CCT6A","Isoform 2 of T-complex protein 1 subunit zeta ","GO:0005829 Cytosol","Non-Exosome"
@@ -1070,7 +1130,11 @@
 "P07942","LAMB1","Laminin subunit beta-1 ","GO:0005886 Plasma Membrane; GO:0031012 Extracellular Matrix","Non-Exosome"
 "E9PCA1","CCT5","T-complex protein 1 subunit epsilon ","GO:0070013 Intracellular Organelle Lumen; GO:0031981 Nuclear Lumen; GO:0005829 Cytosol","Non-Exosome"
 "P48643","CCT5","T-complex protein 1 subunit epsilon ","GO:0070013 Intracellular Organelle Lumen; GO:0031981 Nuclear Lumen; GO:0005829 Cytosol","Non-Exosome"
+<<<<<<< HEAD
 "P48729-2","CSNK1A1","Isoform 2 of Casein kinase I isoform alpha ","GO:0005829 Cytosol","Non-Exosome"
+=======
+"P48729-2","CSNK1A1","Isoform 2 of Casein kinase I isoform alpha ","GO:0005829 Cytosol","Exosome"
+>>>>>>> 5cdeaf4b7e41f44a5a78e3102cf3813c75cfb344
 "P48730-2","CSNK1D","Isoform 2 of Casein kinase I isoform delta ","GO:0005829 Cytosol","Exosome"
 "P49674","CSNK1E","Casein kinase I isoform epsilon ","GO:0005829 Cytosol","Exosome"
 "P48739-2","PITPNB","Isoform 2 of Phosphatidylinositol transfer protein beta isoform ","","Non-Exosome"
@@ -1108,7 +1172,11 @@
 "P50991","CCT4","T-complex protein 1 subunit delta ","GO:0005829 Cytosol","Non-Exosome"
 "P51114-2","FXR1","Isoform 2 of Fragile X mental retardation syndrome-related protein 1 ","GO:0070013 Intracellular Organelle Lumen; GO:0031981 Nuclear Lumen","Non-Exosome"
 "P51149","RAB7A","Ras-related protein Rab-7a ","","Non-Exosome"
+<<<<<<< HEAD
 "V9GYA7","DAP3","28S ribosomal protein S29; mitochondrial (Fragment) ","GO:0070013 Intracellular Organelle Lumen; GO:0005759 Mitochondrial Matrix",NA
+=======
+"V9GYA7","DAP3","28S ribosomal protein S29; mitochondrial (Fragment) ","GO:0070013 Intracellular Organelle Lumen; GO:0005759 Mitochondrial Matrix","Exosome"
+>>>>>>> 5cdeaf4b7e41f44a5a78e3102cf3813c75cfb344
 "P51398-2","DAP3","Isoform 2 of 28S ribosomal protein S29; mitochondrial ","GO:0070013 Intracellular Organelle Lumen; GO:0005759 Mitochondrial Matrix","Non-Exosome"
 "P51570-2","GALK1","Isoform 2 of Galactokinase ","GO:0005829 Cytosol","Non-Exosome"
 "P51572-2","BCAP31","Isoform 2 of B-cell receptor-associated protein 31 ","GO:0031090 Organelle Membrane; GO:0000139 Golgi Membrane; GO:0005789 Endoplasmic Reticulum Membrane; GO:0005829 Cytosol; GO:0005886 Plasma Membrane","Non-Exosome"
@@ -1275,7 +1343,11 @@
 "P62829","RPL23","60S ribosomal protein L23 ","GO:0070013 Intracellular Organelle Lumen; GO:0031981 Nuclear Lumen; GO:0005829 Cytosol","Non-Exosome"
 "P62851","RPS25","40S ribosomal protein S25 ","GO:0070013 Intracellular Organelle Lumen; GO:0031981 Nuclear Lumen; GO:0005829 Cytosol","Non-Exosome"
 "H7C5J5","GNB4","Guanine nucleotide-binding protein subunit beta-4 (Fragment) ","","Non-Exosome"
+<<<<<<< HEAD
 "P62873-2","GNB1","Isoform 2 of Guanine nucleotide-binding protein G(I)/G(S)/G(T) subunit beta-1 ","GO:0005886 Plasma Membrane","Non-Exosome"
+=======
+"P62873-2","GNB1","Isoform 2 of Guanine nucleotide-binding protein G(I)/G(S)/G(T) subunit beta-1 ","GO:0005886 Plasma Membrane","Exosome"
+>>>>>>> 5cdeaf4b7e41f44a5a78e3102cf3813c75cfb344
 "P62879","GNB2","Guanine nucleotide-binding protein G(I)/G(S)/G(T) subunit beta-2 ","","Non-Exosome"
 "P62888","RPL30","60S ribosomal protein L30 ","GO:0005829 Cytosol","Exosome"
 "P62899","RPL31","60S ribosomal protein L31 ","GO:0005829 Cytosol","Non-Exosome"
@@ -1295,7 +1367,11 @@
 "P84095","RHOG","Rho-related GTP-binding protein RhoG ","GO:0005886 Plasma Membrane","Exosome"
 "P63010-2","AP2B1","Isoform 2 of AP-2 complex subunit beta ","GO:0031090 Organelle Membrane; GO:0005829 Cytosol; GO:0005886 Plasma Membrane","Exosome"
 "Q10567-2","AP1B1","Isoform B of AP-1 complex subunit beta-1 ","GO:0031090 Organelle Membrane; GO:0000139 Golgi Membrane; GO:0005829 Cytosol; GO:0005886 Plasma Membrane","Non-Exosome"
+<<<<<<< HEAD
 "P63167","DYNLL1","Dynein light chain 1; cytoplasmic ","GO:0005829 Cytosol; GO:0005886 Plasma Membrane","Non-Exosome"
+=======
+"P63167","DYNLL1","Dynein light chain 1; cytoplasmic ","GO:0005829 Cytosol; GO:0005886 Plasma Membrane","Exosome"
+>>>>>>> 5cdeaf4b7e41f44a5a78e3102cf3813c75cfb344
 "Q96FJ2","DYNLL2","Dynein light chain 2; cytoplasmic ","GO:0005829 Cytosol; GO:0005886 Plasma Membrane","Exosome"
 "P63173","RPL38","60S ribosomal protein L38 ","GO:0005829 Cytosol","Non-Exosome"
 "P63208","SKP1","S-phase kinase-associated protein 1 ","GO:0070013 Intracellular Organelle Lumen; GO:0031981 Nuclear Lumen; GO:0005829 Cytosol","Non-Exosome"
@@ -1303,7 +1379,11 @@
 "Q6IS14","EIF5AL1","Eukaryotic translation initiation factor 5A-1-like ","GO:0005829 Cytosol; GO:0005886 Plasma Membrane","Non-Exosome"
 "P63241-2","EIF5A","Isoform 2 of Eukaryotic translation initiation factor 5A-1 ","GO:0005829 Cytosol; GO:0005886 Plasma Membrane","Non-Exosome"
 "P63244","GNB2L1","Guanine nucleotide-binding protein subunit beta-2-like 1 ","GO:0005886 Plasma Membrane","Non-Exosome"
+<<<<<<< HEAD
 "C9J5V9","YBX1","Nuclease-sensitive element-binding protein 1 (Fragment) ","","Non-Exosome"
+=======
+"C9J5V9","YBX1","Nuclease-sensitive element-binding protein 1 (Fragment) ","","Exosome"
+>>>>>>> 5cdeaf4b7e41f44a5a78e3102cf3813c75cfb344
 "P67809","YBX1","Nuclease-sensitive element-binding protein 1 ","","Non-Exosome"
 "P67812-2","SEC11A","Isoform 2 of Signal peptidase complex catalytic subunit SEC11A ","GO:0031090 Organelle Membrane; GO:0005789 Endoplasmic Reticulum Membrane","Non-Exosome"
 "P06276","BCHE","Cholinesterase ","GO:0070013 Intracellular Organelle Lumen; GO:0005788 Endoplasmic Reticulum Lumen","Non-Exosome"
@@ -1336,10 +1416,17 @@
 "Q96EQ8","RNF125","E3 ubiquitin-protein ligase RNF125 ","","Non-Exosome"
 "P78527","PRKDC","DNA-dependent protein kinase catalytic subunit ","GO:0070013 Intracellular Organelle Lumen; GO:0031981 Nuclear Lumen","Non-Exosome"
 "P80303-2","NUCB2","Isoform 2 of Nucleobindin-2 ","GO:0031090 Organelle Membrane; GO:0031965 Nuclear Membrane; GO:0005829 Cytosol; GO:0005886 Plasma Membrane","Non-Exosome"
+<<<<<<< HEAD
 "P80723","BASP1","Brain acid soluble protein 1 ","GO:0005886 Plasma Membrane","Non-Exosome"
 "P82675","MRPS5","28S ribosomal protein S5; mitochondrial ","","Non-Exosome"
 "O15198-2","SMAD9","Isoform B of Mothers against decapentaplegic homolog 9 ","GO:0070013 Intracellular Organelle Lumen; GO:0031981 Nuclear Lumen; GO:0005829 Cytosol","Non-Exosome"
 "P84022","SMAD3","Mothers against decapentaplegic homolog 3 ","GO:0070013 Intracellular Organelle Lumen; GO:0031981 Nuclear Lumen; GO:0031090 Organelle Membrane; GO:0031965 Nuclear Membrane; GO:0005829 Cytosol; GO:0005886 Plasma Membrane","Non-Exosome"
+=======
+"P80723","BASP1","Brain acid soluble protein 1 ","GO:0005886 Plasma Membrane","Exosome"
+"P82675","MRPS5","28S ribosomal protein S5; mitochondrial ","","Non-Exosome"
+"O15198-2","SMAD9","Isoform B of Mothers against decapentaplegic homolog 9 ","GO:0070013 Intracellular Organelle Lumen; GO:0031981 Nuclear Lumen; GO:0005829 Cytosol","Exosome"
+"P84022","SMAD3","Mothers against decapentaplegic homolog 3 ","GO:0070013 Intracellular Organelle Lumen; GO:0031981 Nuclear Lumen; GO:0031090 Organelle Membrane; GO:0031965 Nuclear Membrane; GO:0005829 Cytosol; GO:0005886 Plasma Membrane","Exosome"
+>>>>>>> 5cdeaf4b7e41f44a5a78e3102cf3813c75cfb344
 "J3QL15","RPL19","Ribosomal protein L19 (Fragment) ","GO:0005829 Cytosol","Non-Exosome"
 "P84098","RPL19","60S ribosomal protein L19 ","GO:0005829 Cytosol","Non-Exosome"
 "P98088","MUC5AC","Mucin-5AC (Fragments) ","GO:0031012 Extracellular Matrix","Exosome"
@@ -1376,7 +1463,11 @@
 "Q02978","SLC25A11","Mitochondrial 2-oxoglutarate/malate carrier protein ","GO:0031090 Organelle Membrane; GO:0031966 Mitochondrial Membrane; GO:0005886 Plasma Membrane","Non-Exosome"
 "Q03135-2","CAV1","Isoform 2 of Caveolin-1 ","GO:0031090 Organelle Membrane; GO:0000139 Golgi Membrane; GO:0005829 Cytosol; GO:0005886 Plasma Membrane","Non-Exosome"
 "Q03135","CAV1","Caveolin-1 ","GO:0031090 Organelle Membrane; GO:0000139 Golgi Membrane; GO:0005829 Cytosol; GO:0005886 Plasma Membrane","Non-Exosome"
+<<<<<<< HEAD
 "Q03405","PLAUR","Urokinase plasminogen activator surface receptor ","",NA
+=======
+"Q03405","PLAUR","Urokinase plasminogen activator surface receptor ","","Exosome"
+>>>>>>> 5cdeaf4b7e41f44a5a78e3102cf3813c75cfb344
 "Q04206-2","RELA","Isoform 2 of Transcription factor p65 ","GO:0070013 Intracellular Organelle Lumen; GO:0031981 Nuclear Lumen; GO:0005829 Cytosol","Non-Exosome"
 "Q6MZP7-2","LIN54","Isoform 2 of Protein lin-54 homolog ","","Non-Exosome"
 "O43432-3","EIF4G3","Isoform 3 of Eukaryotic translation initiation factor 4 gamma 3 ","","Non-Exosome"
@@ -1396,7 +1487,11 @@
 "Q08380","LGALS3BP","Galectin-3-binding protein ","GO:0031012 Extracellular Matrix","Exosome"
 "Q08431-3","MFGE8","Isoform 3 of Lactadherin ","GO:0005886 Plasma Membrane","Exosome"
 "Q08431","MFGE8","Lactadherin ","GO:0005886 Plasma Membrane","Exosome"
+<<<<<<< HEAD
 "Q06278","AOX1","Aldehyde oxidase ","","Non-Exosome"
+=======
+"Q06278","AOX1","Aldehyde oxidase ","","Exosome"
+>>>>>>> 5cdeaf4b7e41f44a5a78e3102cf3813c75cfb344
 "Q08722-2","CD47","Isoform OA3-293 of Leukocyte surface antigen CD47 ","GO:0005886 Plasma Membrane","Exosome"
 "Q08945","SSRP1","FACT complex subunit SSRP1 ","GO:0070013 Intracellular Organelle Lumen; GO:0031981 Nuclear Lumen","Non-Exosome"
 "Q08AM6","VAC14","Protein VAC14 homolog ","GO:0031090 Organelle Membrane; GO:0010008 Endosome Membrane","Non-Exosome"
@@ -1411,7 +1506,11 @@
 "Q12874","SF3A3","Splicing factor 3A subunit 3 ","GO:0070013 Intracellular Organelle Lumen; GO:0031981 Nuclear Lumen","Non-Exosome"
 "Q12906-2","ILF3","Isoform 2 of Interleukin enhancer-binding factor 3 ","GO:0070013 Intracellular Organelle Lumen; GO:0031981 Nuclear Lumen","Non-Exosome"
 "Q12907","LMAN2","Vesicular integral-membrane protein VIP36 ","","Non-Exosome"
+<<<<<<< HEAD
 "Q12913","PTPRJ","Receptor-type tyrosine-protein phosphatase eta ","GO:0005886 Plasma Membrane","Non-Exosome"
+=======
+"Q12913","PTPRJ","Receptor-type tyrosine-protein phosphatase eta ","GO:0005886 Plasma Membrane","Exosome"
+>>>>>>> 5cdeaf4b7e41f44a5a78e3102cf3813c75cfb344
 "Q12979-2","ABR","Isoform Short of Active breakpoint cluster region-related protein ","GO:0005829 Cytosol","Non-Exosome"
 "Q13045-2","FLII","Isoform 2 of Protein flightless-1 homolog ","GO:0070013 Intracellular Organelle Lumen; GO:0031981 Nuclear Lumen","Non-Exosome"
 "Q13085-2","ACACA","Isoform 2 of Acetyl-CoA carboxylase 1 ","","Non-Exosome"
@@ -1712,7 +1811,11 @@
 "O95466-2","FMNL1","Isoform 2 of Formin-like protein 1 ","","Non-Exosome"
 "Q96PY5-3","FMNL2","Isoform 2 of Formin-like protein 2 ","","Non-Exosome"
 "Q96Q11-2","TRNT1","Isoform 2 of CCA tRNA nucleotidyltransferase 1; mitochondrial ","","Non-Exosome"
+<<<<<<< HEAD
 "Q96QD8-2","SLC38A2","Isoform 2 of Sodium-coupled neutral amino acid transporter 2 ","GO:0005886 Plasma Membrane","Non-Exosome"
+=======
+"Q96QD8-2","SLC38A2","Isoform 2 of Sodium-coupled neutral amino acid transporter 2 ","GO:0005886 Plasma Membrane","Exosome"
+>>>>>>> 5cdeaf4b7e41f44a5a78e3102cf3813c75cfb344
 "Q96RT1-2","ERBB2IP","Isoform 2 of Protein LAP2 ","GO:0005886 Plasma Membrane; GO:0031012 Extracellular Matrix","Non-Exosome"
 "Q96S97","MYADM","Myeloid-associated differentiation marker ","","Non-Exosome"
 "O95155-2","UBE4B","Isoform 2 of Ubiquitin conjugation factor E4 B ","","Non-Exosome"
@@ -1732,7 +1835,11 @@
 "Q99829","CPNE1","Copine-1 ","","Non-Exosome"
 "Q99832-3","CCT7","Isoform 3 of T-complex protein 1 subunit eta ","GO:0005829 Cytosol","Non-Exosome"
 "Q99873-2","PRMT1","Isoform 2 of Protein arginine N-methyltransferase 1 ","","Non-Exosome"
+<<<<<<< HEAD
 "Q99961","SH3GL1","Endophilin-A2 ","","Non-Exosome"
+=======
+"Q99961","SH3GL1","Endophilin-A2 ","","Exosome"
+>>>>>>> 5cdeaf4b7e41f44a5a78e3102cf3813c75cfb344
 "Q9BPW8","NIPSNAP1","Protein NipSnap homolog 1 ","GO:0031090 Organelle Membrane; GO:0031966 Mitochondrial Membrane","Non-Exosome"
 "Q9BQ67","GRWD1","Glutamate-rich WD repeat-containing protein 1 ","GO:0070013 Intracellular Organelle Lumen; GO:0031981 Nuclear Lumen","Non-Exosome"
 "Q9BQA1","WDR77","Methylosome protein 50 ","","Non-Exosome"
@@ -1841,10 +1948,17 @@
 "Q5T2N8","ATAD3C","ATPase family AAA domain-containing protein 3C ","","Non-Exosome"
 "Q9NVI7-2","ATAD3A","Isoform 2 of ATPase family AAA domain-containing protein 3A ","","Non-Exosome"
 "Q9NVJ2","ARL8B","ADP-ribosylation factor-like protein 8B ","GO:0031090 Organelle Membrane; GO:0010008 Endosome Membrane","Non-Exosome"
+<<<<<<< HEAD
 "Q9NVP1","DDX18","ATP-dependent RNA helicase DDX18 ","","Non-Exosome"
 "Q9NWZ5-4","UCKL1","Isoform 4 of Uridine-cytidine kinase-like 1 ","","Non-Exosome"
 "Q9NX14-2","NDUFB11","Isoform 2 of NADH dehydrogenase [ubiquinone] 1 beta subcomplex subunit 11; mitochondrial ","GO:0031090 Organelle Membrane; GO:0031966 Mitochondrial Membrane","Non-Exosome"
 "Q9NX24","NHP2","H/ACA ribonucleoprotein complex subunit 2 ","",NA
+=======
+"Q9NVP1","DDX18","ATP-dependent RNA helicase DDX18 ","","Exosome"
+"Q9NWZ5-4","UCKL1","Isoform 4 of Uridine-cytidine kinase-like 1 ","","Non-Exosome"
+"Q9NX14-2","NDUFB11","Isoform 2 of NADH dehydrogenase [ubiquinone] 1 beta subcomplex subunit 11; mitochondrial ","GO:0031090 Organelle Membrane; GO:0031966 Mitochondrial Membrane","Non-Exosome"
+"Q9NX24","NHP2","H/ACA ribonucleoprotein complex subunit 2 ","","Exosome"
+>>>>>>> 5cdeaf4b7e41f44a5a78e3102cf3813c75cfb344
 "Q9NX40-2","OCIAD1","Isoform 2 of OCIA domain-containing protein 1 ","","Non-Exosome"
 "Q9NX63","CHCHD3","Coiled-coil-helix-coiled-coil-helix domain-containing protein 3; mitochondrial ","GO:0031090 Organelle Membrane; GO:0031966 Mitochondrial Membrane","Non-Exosome"
 "Q9NXE4-2","SMPD4","Isoform 2 of Sphingomyelin phosphodiesterase 4 ","","Non-Exosome"
@@ -1911,7 +2025,11 @@
 "Q6QEF8-2","CORO6","Isoform 2 of Coronin-6 ","","Non-Exosome"
 "Q9ULV4-2","CORO1C","Isoform 2 of Coronin-1C ","","Non-Exosome"
 "Q9UMS4","PRPF19","Pre-mRNA-processing factor 19 ","GO:0070013 Intracellular Organelle Lumen; GO:0031981 Nuclear Lumen","Non-Exosome"
+<<<<<<< HEAD
 "Q9UNF0-2","PACSIN2","Isoform 2 of Protein kinase C and casein kinase substrate in neurons protein 2 ","",NA
+=======
+"Q9UNF0-2","PACSIN2","Isoform 2 of Protein kinase C and casein kinase substrate in neurons protein 2 ","","Exosome"
+>>>>>>> 5cdeaf4b7e41f44a5a78e3102cf3813c75cfb344
 "Q9UNM6-2","PSMD13","Isoform 2 of 26S proteasome non-ATPase regulatory subunit 13 ","GO:0005829 Cytosol","Non-Exosome"
 "Q9UNX4","WDR3","WD repeat-containing protein 3 ","GO:0070013 Intracellular Organelle Lumen; GO:0031981 Nuclear Lumen","Non-Exosome"
 "Q9UNZ2-5","NSFL1C","Isoform 3 of NSFL1 cofactor p47 ","","Non-Exosome"
@@ -1945,7 +2063,11 @@
 "Q9Y3I0","RTCB","tRNA-splicing ligase RtcB homolog ","","Non-Exosome"
 "Q9Y3U8","RPL36","60S ribosomal protein L36 ","GO:0070013 Intracellular Organelle Lumen; GO:0031981 Nuclear Lumen; GO:0005829 Cytosol","Non-Exosome"
 "Q9Y3Z3-3","SAMHD1","Isoform 3 of Deoxynucleoside triphosphate triphosphohydrolase SAMHD1 ","","Non-Exosome"
+<<<<<<< HEAD
 "Q9Y446-2","PKP3","Isoform PKP3b of Plakophilin-3 ","GO:0005886 Plasma Membrane","Non-Exosome"
+=======
+"Q9Y446-2","PKP3","Isoform PKP3b of Plakophilin-3 ","GO:0005886 Plasma Membrane",NA
+>>>>>>> 5cdeaf4b7e41f44a5a78e3102cf3813c75cfb344
 "P18621-3","RPL17","Isoform 3 of 60S ribosomal protein L17 ","GO:0005829 Cytosol","Non-Exosome"
 "Q9Y490","TLN1","Talin-1 ","GO:0005829 Cytosol; GO:0005886 Plasma Membrane","Non-Exosome"
 "Q9Y4K0","LOXL2","Lysyl oxidase homolog 2 ","","Exosome"
@@ -2005,7 +2127,11 @@
 "Q9Y3C8","UFC1","Ubiquitin-fold modifier-conjugating enzyme 1 ","","Non-Exosome"
 "Q9NXN4-2","GDAP2","Isoform 2 of Ganglioside-induced differentiation-associated protein 2 ","","Non-Exosome"
 "Q9NTX5","ECHDC1","Ethylmalonyl-CoA decarboxylase ","","Non-Exosome"
+<<<<<<< HEAD
 "Q9Y239","NOD1","Nucleotide-binding oligomerization domain-containing protein 1 ","","Non-Exosome"
+=======
+"Q9Y239","NOD1","Nucleotide-binding oligomerization domain-containing protein 1 ","","Exosome"
+>>>>>>> 5cdeaf4b7e41f44a5a78e3102cf3813c75cfb344
 "Q9Y289","SLC5A6","Sodium-dependent multivitamin transporter ","GO:0031090 Organelle Membrane; GO:0005886 Plasma Membrane","Non-Exosome"
 "Q8TF09","DYNLRB2","Dynein light chain roadblock-type 2 ","","Non-Exosome"
 "Q13144","EIF2B5","Translation initiation factor eIF-2B subunit epsilon ","","Non-Exosome"
@@ -2070,7 +2196,11 @@
 "Q99661","KIF2C","Kinesin-like protein KIF2C ","","Non-Exosome"
 "Q9BSF4","C19orf52","Uncharacterized protein C19orf52 ","","Non-Exosome"
 "Q9GZZ9-2","UBA5","Isoform 2 of Ubiquitin-like modifier-activating enzyme 5 ","","Non-Exosome"
+<<<<<<< HEAD
 "Q9HAB3","SLC52A2","Solute carrier family 52; riboflavin transporter; member 2 ","","Non-Exosome"
+=======
+"Q9HAB3","SLC52A2","Solute carrier family 52; riboflavin transporter; member 2 ","","Exosome"
+>>>>>>> 5cdeaf4b7e41f44a5a78e3102cf3813c75cfb344
 "Q9NPA8-2","ENY2","Isoform 2 of Transcription and mRNA export factor ENY2 ","GO:0070013 Intracellular Organelle Lumen; GO:0031981 Nuclear Lumen","Non-Exosome"
 "Q9NVR2","INTS10","Integrator complex subunit 10 ","GO:0070013 Intracellular Organelle Lumen; GO:0031981 Nuclear Lumen","Non-Exosome"
 "Q9NZR1-2","TMOD2","Isoform 2 of Tropomodulin-2 ","","Exosome"
@@ -2109,7 +2239,11 @@
 "O75157-2","TSC22D2","Isoform 2 of TSC22 domain family protein 2 ","","Non-Exosome"
 "O95336","PGLS","6-phosphogluconolactonase ","","Non-Exosome"
 "O95372","LYPLA2","Acyl-protein thioesterase 2 ","","Non-Exosome"
+<<<<<<< HEAD
 "P78352-2","DLG4","Isoform 2 of Disks large homolog 4 ","GO:0031090 Organelle Membrane; GO:0005886 Plasma Membrane","Non-Exosome"
+=======
+"P78352-2","DLG4","Isoform 2 of Disks large homolog 4 ","GO:0031090 Organelle Membrane; GO:0005886 Plasma Membrane","Exosome"
+>>>>>>> 5cdeaf4b7e41f44a5a78e3102cf3813c75cfb344
 "Q9BXT2","CACNG6","Voltage-dependent calcium channel gamma-6 subunit ","GO:0005886 Plasma Membrane","Non-Exosome"
 "O95817","BAG3","BAG family molecular chaperone regulator 3 ","GO:0005829 Cytosol","Non-Exosome"
 "P00156","MT-CYB","Cytochrome b ","","Non-Exosome"
@@ -2132,10 +2266,17 @@
 "Q9H089","LSG1","Large subunit GTPase 1 homolog ","GO:0070013 Intracellular Organelle Lumen; GO:0031981 Nuclear Lumen","Non-Exosome"
 "Q9H5Z1-2","DHX35","Isoform 2 of Probable ATP-dependent RNA helicase DHX35 ","","Non-Exosome"
 "O15258","RER1","Protein RER1 ","GO:0031090 Organelle Membrane; GO:0000139 Golgi Membrane","Non-Exosome"
+<<<<<<< HEAD
 "Q9BXJ4-2","C1QTNF3","Isoform 2 of Complement C1q tumor necrosis factor-related protein 3 ","",NA
 "Q9P246","STIM2","Stromal interaction molecule 2 ","GO:0005886 Plasma Membrane","Exosome"
 "Q9UNF1-2","MAGED2","Isoform 2 of Melanoma-associated antigen D2 ","","Non-Exosome"
 "Q9UBJ2","ABCD2","ATP-binding cassette sub-family D member 2 ","",NA
+=======
+"Q9BXJ4-2","C1QTNF3","Isoform 2 of Complement C1q tumor necrosis factor-related protein 3 ","","Exosome"
+"Q9P246","STIM2","Stromal interaction molecule 2 ","GO:0005886 Plasma Membrane","Exosome"
+"Q9UNF1-2","MAGED2","Isoform 2 of Melanoma-associated antigen D2 ","","Non-Exosome"
+"Q9UBJ2","ABCD2","ATP-binding cassette sub-family D member 2 ","","Exosome"
+>>>>>>> 5cdeaf4b7e41f44a5a78e3102cf3813c75cfb344
 "Q9NUQ6-2","SPATS2L","Isoform 2 of SPATS2-like protein ","","Non-Exosome"
 "P35348-9","ADRA1A","Isoform 9 of Alpha-1A adrenergic receptor ","GO:0005886 Plasma Membrane","Exosome"
 "I3L3X5","TMEM256-PLSCR3","Protein TMEM256-PLSCR3 ","","Exosome"

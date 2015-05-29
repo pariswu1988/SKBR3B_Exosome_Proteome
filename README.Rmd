@@ -1,5 +1,9 @@
 ---
+<<<<<<< HEAD
 output: pdf_document
+=======
+output: html_document
+>>>>>>> 5cdeaf4b7e41f44a5a78e3102cf3813c75cfb344
 ---
 # README
 ### for analysis seen in "Defining the breast cancer exosomal proteome: Strategy to unbiasedly characterize exosome vesicles"
@@ -29,7 +33,11 @@ used as the input for these scripts.
 + all_peptide_Rep2_noC.txt 
   
 **Results from ProteinProphet**  
+<<<<<<< HEAD
 *These are the results from ProteinProphet exported as a excel spreadsheet then saved as csv.*
+=======
+*These are the results from ProteinProphet exported as a excel spreadsheet then saved as a csv.*
+>>>>>>> 5cdeaf4b7e41f44a5a78e3102cf3813c75cfb344
 
 + ProteinProphet_Combined.csv  
 
@@ -44,7 +52,11 @@ used as the input for these scripts.
 + markers.csv  
 
 **DAVID Results**  
+<<<<<<< HEAD
 *After running __ClusterAnalysis.R__, a lists of gene names for the Exosome cluster and Non-Exosome cluster are generated (GN_Exo.txt and GN_Non.txt, repectively). These were entered into DAVID and the "Functional Annotation Chart" was saved as DAVID_Exo.txt and DAVID_Non_Exo.txt. Additionally, GoTerms.csv is needed to define the selected gene ontology cellular component terms*  
+=======
+*After running __ClusterAnalysis.R__, a list of gene names for the Exosome cluster and Non-Exosome cluster are generated (GN_Exo.txt and GN_Non.txt, repectively). These were entered into DAVID and the "Functional Annotation Chart" was saved as DAVID_Exo.txt and DAVID_Non_Exo.txt. Additionally, GoTerms.csv is needed to define the selected gene ontology cellular component terms*  
+>>>>>>> 5cdeaf4b7e41f44a5a78e3102cf3813c75cfb344
 
 + DAVID_Exo.txt
 + DAVID_Non_Exo.txt
@@ -52,7 +64,11 @@ used as the input for these scripts.
 
   
 ## R scripts
+<<<<<<< HEAD
 1. **ProtQuant.R** - *Depends on ProtQuant_Functions.R.* This script is used to calculate the protein ratios for each replicate, independently based on the peptides assigned to each protein by ProteinProphet. The protein ratio is calculated as the average of the peptide ratios assiged to it, weighted by the number of quantified PSMs for each peptide. An equation to represent this calculation is shown below, n represents the number of peptides quantified for a given protein:
+=======
+1. **ProtQuant.R** - *Depends on ProtQuant_Functions.R.* This script is used to calculate the protein ratios for each replicate, independently based on the peptides assigned to each protein by ProteinProphet. The protein ratio is calculated as the average of the peptide ratios assiged to it, weighted by the number of quantified PSMs for each peptide. An equation to represent this calculation is shown below, n represents the number of peptides quantified for a given protein: \n
+>>>>>>> 5cdeaf4b7e41f44a5a78e3102cf3813c75cfb344
 $$ Protein Ratio = \frac{\sum_{i=1}^{n}PSMs_{i} * PeptideRatio_{i}}{\sum_{i=1}^{n}PSMs_{i}} $$
     
 2. **ProtQuant_Functions.R** - Contains the functions needed to read in the ProteinProphet files and perform the protein quantitation in *ProtQuant.R*.

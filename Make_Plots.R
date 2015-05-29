@@ -6,8 +6,12 @@
 # University of Maryland, Baltimore.                                                         #
 #                                                                                            #
 # This code was intended for the proteomic analysis of our TMT 6-plex labeled SKBR3b         #
+<<<<<<< HEAD
 # exososomes using the TMT 129, 130 and 131 tags. It is designed to calculate protein ratios # 
 # from the peptide ratios that were output from 2 replicate experiments in QuantiMORE.       #
+=======
+# exososomes using the TMT 129, 130 and 131 tags. This script makes the plots.               #
+>>>>>>> 5cdeaf4b7e41f44a5a78e3102cf3813c75cfb344
 #                                                                                            #
 ##############################################################################################
 
@@ -18,6 +22,11 @@ library("ggplot2")
 library("grid")
 source("Plot_Functions.R")
 
+<<<<<<< HEAD
+=======
+dir.create("Figures")
+
+>>>>>>> 5cdeaf4b7e41f44a5a78e3102cf3813c75cfb344
 data <- read.csv("ClusterResults.csv")
 data <- rename(data,c("X" = "Protein.Id"))
 
@@ -28,6 +37,7 @@ ggsave(file = "Figures/ClusterPlot.pdf",width=8.5,height=8.10,units = "cm", useD
 ggsave(file = "Figures/ClusterPlot.tiff",width=8.5,height=8.10,units = "cm")
 
 #################################################################
+<<<<<<< HEAD
 cover_fill = c("#FF6666","#66FFFF","#FF6666","#66FFFF")
 cover_color = c("black","black","black","black")
 
@@ -44,6 +54,8 @@ Cover
 ggsave(file = "Figures/CoverPlot.tiff",width=9, height = 5, units = "cm")
 
 #################################################################
+=======
+>>>>>>> 5cdeaf4b7e41f44a5a78e3102cf3813c75cfb344
 
 Scatter_M <- scatter_plot_marked(data)
 Scatter_M
