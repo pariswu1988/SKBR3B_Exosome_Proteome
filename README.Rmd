@@ -1,5 +1,5 @@
 ---
-output: html_document
+output: pdf_document
 ---
 # README
 ### for analysis seen in "Defining the breast cancer exosomal proteome: Strategy to unbiasedly characterize exosome vesicles"
@@ -52,7 +52,7 @@ used as the input for these scripts.
 
   
 ## R scripts
-1. **ProtQuant.R** - *Depends on ProtQuant_Functions.R.* This script is used to calculate the protein ratios for each replicate, independently based on the peptides assigned to each protein by ProteinProphet. The protein ratio is calculated as the average of the peptide ratios assiged to it, weighted by the number of quantified PSMs for each peptide. An equation to represent this calculation is shown below, n represents the number of peptides quantified for a given protein: \n
+1. **ProtQuant.R** - *Depends on ProtQuant_Functions.R.* This script is used to calculate the protein ratios for each replicate, independently based on the peptides assigned to each protein by ProteinProphet. The protein ratio is calculated as the average of the peptide ratios assiged to it, weighted by the number of quantified PSMs for each peptide. An equation to represent this calculation is shown below, n represents the number of peptides quantified for a given protein:
 $$ Protein Ratio = \frac{\sum_{i=1}^{n}PSMs_{i} * PeptideRatio_{i}}{\sum_{i=1}^{n}PSMs_{i}} $$
     
 2. **ProtQuant_Functions.R** - Contains the functions needed to read in the ProteinProphet files and perform the protein quantitation in *ProtQuant.R*.

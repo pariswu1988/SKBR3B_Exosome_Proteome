@@ -68,6 +68,7 @@ Data <- log(Data, 2) # Changed to log2 scale for fold change
 marked <- addMarkers(Data, "markers.csv")
 
 #Cluster analysis using SVM (for good results time should = 100)
+#Seed set for reproducibility.
 params <- svmOptimisation(marked, time = 100, xval=5, seed = 1)
 ClusterData <- svmClassification(marked,params)
 

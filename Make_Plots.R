@@ -28,6 +28,22 @@ ggsave(file = "Figures/ClusterPlot.pdf",width=8.5,height=8.10,units = "cm", useD
 ggsave(file = "Figures/ClusterPlot.tiff",width=8.5,height=8.10,units = "cm")
 
 #################################################################
+cover_fill = c("#FF6666","#66FFFF","#FF6666","#66FFFF")
+cover_color = c("black","black","black","black")
+
+Cover <- cluster_plot_marked(data) +
+  scale_fill_manual(values = cover_fill, name = "Classification") +
+  scale_color_manual(values = cover_color, name = "Classification") +
+  scale_shape_manual(values = c(21,23,21,23), name = "Classification") +
+  scale_alpha_manual(values = c(0.7,0.7,1,1), name = "Classification") +
+  theme(legend.position = "none",axis.title.x = element_text(size=8),axis.title.y = element_text(size=8)) +
+  xlab(expression("log"[2]~"Enrichment in 100K x g Pellet")) +
+  ylab(expression("log"[2]~"Enrichment in Optiprep"))
+
+Cover
+ggsave(file = "Figures/CoverPlot.tiff",width=9, height = 5, units = "cm")
+
+#################################################################
 
 Scatter_M <- scatter_plot_marked(data)
 Scatter_M

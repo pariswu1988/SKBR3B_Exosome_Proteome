@@ -23,6 +23,8 @@ library("pRoloc")
 
 my_fill <- c("#FF6666","#66FFFF","black","black")
 my_color <- c("black","black","white","white")
+xtitle <- expression("Enrichment in 100K Spin (log"[2]~"TMT 130/129)")
+ytitle <- expression("Enrichment in Optiprep (log"[2]~"TMT 131/129)")
 
 scatter_plot <- function(data) {
   plot <- ggplot(data, aes(x=Log2_Ratio_130.129,y=Log2_Ratio_131.129), environment = environment()) + 
@@ -35,8 +37,8 @@ scatter_plot <- function(data) {
           axis.line = element_line(),
           text=element_text(size=8),
           legend.key = element_blank()) +
-    xlab(expression(log[2]~Enrichement~by~100*"K"~Spin~"(TMT 130/129)")) +
-    ylab(expression(log[2]~Enrichment~by~Optiprep~"(TMT 131/129)")) +
+    xlab(xtitle) +
+    ylab(ytitle) +
     geom_hline(aes(yintercept=0)) + geom_vline(aes(xintercept=0))  
   plot
 }
@@ -94,8 +96,8 @@ cluster_plot_marked <- function(data){
           legend.title=element_blank(),
           legend.key.size = unit(0,"cm"),
           panel.border = element_rect(colour="black")) +
-    xlab(expression(log[2]~Enrichement~by~100*"K"~Spin~"(TMT 130/129)")) +
-    ylab(expression(log[2]~Enrichment~by~Optiprep~"(TMT 131/129)")) +
+    xlab(xtitle) +
+    ylab(ytitle) +
     geom_hline(aes(yintercept=0)) + geom_vline(aes(xintercept=0)) +
     guides(colour = guide_legend(override.aes = list(size=2)), 
            size = F, fill = guide_legend(ncol=2,byrow=T))
@@ -138,8 +140,8 @@ cluster_plot_om <- function(data, marker = "PM") {
           legend.title=element_blank(),
           legend.key.size = unit(0,"cm"),
           panel.border = element_rect(colour="black")) +
-    xlab(expression(log[2]~Enrichement~by~100*"K"~Spin~"(TMT 130/129)")) +
-    ylab(expression(log[2]~Enrichment~by~Optiprep~"(TMT 131/129)")) +
+    xlab(xtitle) +
+    ylab(ytitle) +
     geom_hline(aes(yintercept=0)) + geom_vline(aes(xintercept=0)) +
     guides(colour = guide_legend(override.aes = list(size=2)), size = F, 
            size = F, fill = guide_legend(ncol=2,byrow=T))
