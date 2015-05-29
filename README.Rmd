@@ -1,9 +1,5 @@
 ---
-<<<<<<< HEAD
 output: pdf_document
-=======
-output: html_document
->>>>>>> 5cdeaf4b7e41f44a5a78e3102cf3813c75cfb344
 ---
 # README
 ### for analysis seen in "Defining the breast cancer exosomal proteome: Strategy to unbiasedly characterize exosome vesicles"
@@ -18,7 +14,7 @@ cluster proteins into groups likely to be of exosomal origin or not from the exo
 
 #### Experiment Detail
 Shotgun proteomics data was acquired using tri-plexed tandem mass tags (TMT), specifically 
-TMT-129,130 and 131 in 2 replicates. The 3 tags represent different points in a traditional exosome isolation strategy, where TMT-129 is a 10,000 x g pellet, TMT-130 is a 100,000 x g supernatant, and TMT-131 is the 
+TMT-129,130 and 131 in 2 replicates. The 3 tags represent different points in a traditional exosome isolation strategy, where TMT-129 is a 10,000 x g pellet, TMT-130 is a 100,000 x g pelleted, and TMT-131 is the pelleted 
 exosome fraction from an Optiprep density gradient. The raw mass spectra were searhed using Comet.
 Peptide IDs were validated using PeptideProphet, keeping all peptides above 0.8 PeptideProphet probability
 (1% FDR) for quantitation. ProteinProphet was used to infer protein evidence using all identified peptides.
@@ -27,17 +23,13 @@ used as the input for these scripts.
   
 ## Inputs for analysis
 **Peptide Quantiation Results from QuantiMORE**  
-*"noC" indicates that we used Excel search a replace to replace all commas with semi-colons in order so that they don't interrupt parsing.*
+*"noC" indicates that we used Excel search to replace all commas with semi-colons in order to csv parsing issues.*
 
 + all_peptide_Rep1_noC.txt  
 + all_peptide_Rep2_noC.txt 
   
 **Results from ProteinProphet**  
-<<<<<<< HEAD
 *These are the results from ProteinProphet exported as a excel spreadsheet then saved as csv.*
-=======
-*These are the results from ProteinProphet exported as a excel spreadsheet then saved as a csv.*
->>>>>>> 5cdeaf4b7e41f44a5a78e3102cf3813c75cfb344
 
 + ProteinProphet_Combined.csv  
 
@@ -52,11 +44,8 @@ used as the input for these scripts.
 + markers.csv  
 
 **DAVID Results**  
-<<<<<<< HEAD
 *After running __ClusterAnalysis.R__, a lists of gene names for the Exosome cluster and Non-Exosome cluster are generated (GN_Exo.txt and GN_Non.txt, repectively). These were entered into DAVID and the "Functional Annotation Chart" was saved as DAVID_Exo.txt and DAVID_Non_Exo.txt. Additionally, GoTerms.csv is needed to define the selected gene ontology cellular component terms*  
-=======
-*After running __ClusterAnalysis.R__, a list of gene names for the Exosome cluster and Non-Exosome cluster are generated (GN_Exo.txt and GN_Non.txt, repectively). These were entered into DAVID and the "Functional Annotation Chart" was saved as DAVID_Exo.txt and DAVID_Non_Exo.txt. Additionally, GoTerms.csv is needed to define the selected gene ontology cellular component terms*  
->>>>>>> 5cdeaf4b7e41f44a5a78e3102cf3813c75cfb344
+
 
 + DAVID_Exo.txt
 + DAVID_Non_Exo.txt
@@ -64,11 +53,8 @@ used as the input for these scripts.
 
   
 ## R scripts
-<<<<<<< HEAD
 1. **ProtQuant.R** - *Depends on ProtQuant_Functions.R.* This script is used to calculate the protein ratios for each replicate, independently based on the peptides assigned to each protein by ProteinProphet. The protein ratio is calculated as the average of the peptide ratios assiged to it, weighted by the number of quantified PSMs for each peptide. An equation to represent this calculation is shown below, n represents the number of peptides quantified for a given protein:
-=======
-1. **ProtQuant.R** - *Depends on ProtQuant_Functions.R.* This script is used to calculate the protein ratios for each replicate, independently based on the peptides assigned to each protein by ProteinProphet. The protein ratio is calculated as the average of the peptide ratios assiged to it, weighted by the number of quantified PSMs for each peptide. An equation to represent this calculation is shown below, n represents the number of peptides quantified for a given protein: \n
->>>>>>> 5cdeaf4b7e41f44a5a78e3102cf3813c75cfb344
+
 $$ Protein Ratio = \frac{\sum_{i=1}^{n}PSMs_{i} * PeptideRatio_{i}}{\sum_{i=1}^{n}PSMs_{i}} $$
     
 2. **ProtQuant_Functions.R** - Contains the functions needed to read in the ProteinProphet files and perform the protein quantitation in *ProtQuant.R*.
@@ -90,7 +76,8 @@ To repeat our analysis, you should run the R scripts in the order shown below. A
 1. **ClusterPlot.pdf** and **ClusterPlot.tiff** - A plot of our SVM cluster analysis results with the Exosome and the Non-Exosome markers shown in black.
 2. **PM_MarkerPlot.pdf** and **PM_MarkerPlot.tiff** - A plot of our SVM cluster analysis results with the plasma membrane markers from pRoloc shown in black.
 3. **ScatterPlot.pdf** and **ScatterPlot.tiff** - A scatter plot of the Log2 protein ratios for all of our quantified proteins.
-4. **ScatterPlot_M.pdf** and **ScatterPlot_M.tiff** - A scatter plot of the Log2 protein ratios for all of our quantified proteins with Exosome and Non-Exosome markers shown in color.  
+4. **ScatterPlot_M.pdf** and **ScatterPlot_M.tiff** - A scatter plot of the Log2 protein ratios for all of our quantified proteins with Exosome and Non-Exosome markers shown in color.
+5. **CoverPlot.tiff** - A version of our SVM cluster analysis for use as a cover picture.
 
 #### Tables
 1. **SI-1_Proteins.csv** - contains a detailed protein list with protein quantitation information.
