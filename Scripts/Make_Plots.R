@@ -101,3 +101,12 @@ PM_Markers_Helper <- PM_Markers_Helper +
 PM_Markers_Helper
 
 ggsave(file="Figures/PM_Marker_Help.pdf",width=85, height=80.7, units="cm",useDingbats=F)
+
+
+###################################################################
+data$Log2_Ratio_131.130 <- log2(data$Ratio_131.129/data$Ratio_130.129)
+
+revPlot <- cluster_plot_rev(data)
+revPlot
+
+ggsave(file = "Figures/Cluster_rev.tiff",width=8.5,height=8.10,units = "cm")

@@ -25,6 +25,7 @@ my_fill <- c("#FF6666","#66FFFF","black","black")
 my_color <- c("black","black","white","white")
 xtitle <- expression("Enrichment in 100K Spin (log"[2]~"TMT 130/129)")
 ytitle <- expression("Enrichment in Optiprep (log"[2]~"TMT 131/129)")
+ytitle2 <- expression("Enrichment in Optiprep (log"[2]~"TMT 131/130)")
 
 scatter_plot <- function(data) {
   plot <- ggplot(data, aes(x=Log2_Ratio_130.129,y=Log2_Ratio_131.129), environment = environment()) + 
@@ -162,4 +163,41 @@ map_markers <- function(data, mark = ("PM")){
   marked <- merge(marked,pm,by.x="UPID", by.y="Id", all.x = T, all.y = F)
   marked
   
+}
+
+
+cluster_plot_rev <- function(data){
+  marked <- data
+  marked$svm <- as.character(marked$svm)
+  marked$svm[marked$markers == "Exosome"] = "Exosome Marker"
+  marked$svm[marked$markers == "Non-Exosome"] = "Non-Exosome Marker"
+  marked$svm <- as.factor(marked$svm)
+  marked$svm <- factor(marked$svm,levels(marked$svm)[c(1,3,2,4)])
+  marked <- marked[order(marked$svm),]
+  
+  plot <- ggplot(marked, aes(x=Log2_Ratio_130.129,y=Log2_Ratio_131.130), environment = environment()) + 
+    geom_point(aes(fill = svm, size = svm.scores, shape = svm, alpha=svm, color=svm)) + 
+    theme_bw() +
+    scale_fill_manual(values = my_fill, name = "Classification") +
+    scale_color_manual(values = my_color, name = "Classification") +
+    scale_shape_manual(values = c(21,23,21,23), name = "Classification") +
+    scale_alpha_manual(values = c(0.7,0.7,1,1), name = "Classification") +
+    scale_size_continuous(range=c(0.5,2))+
+    theme(legend.background = element_blank(),
+          panel.grid.major=element_blank(), 
+          panel.grid.minor=element_blank(),
+          axis.line = element_line(),
+          text=element_text(size=8),
+          legend.key = element_blank(),
+          legend.justification=c(0,0), 
+          legend.position= "bottom",
+          legend.title=element_blank(),
+          legend.key.size = unit(0,"cm"),
+          panel.border = element_rect(colour="black")) +
+    xlab(xtitle) +
+    ylab(ytitle2) +
+    geom_hline(aes(yintercept=0)) + geom_vline(aes(xintercept=0)) +
+    guides(colour = guide_legend(override.aes = list(size=2)), 
+           size = F, fill = guide_legend(ncol=2,byrow=T))
+  plot
 }
