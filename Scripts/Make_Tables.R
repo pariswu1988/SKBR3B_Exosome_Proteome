@@ -7,28 +7,20 @@
 #                                                                                            #
 # This code was intended for the proteomic analysis of our TMT 6-plex labeled SKBR3b         #
 # exososomes using the TMT 129, 130 and 131 tags. This script is used to create tables from  #
-<<<<<<< HEAD
-# the cluster results. Used after ClusterAnalysis.R.                                         #
-=======
 # the cluster results. Used after ClusterAnalysis.R and Make_Plots.R.                        #
->>>>>>> 5cdeaf4b7e41f44a5a78e3102cf3813c75cfb344
 #                                                                                            #
 ##############################################################################################
 
 
 library(plyr)
-source("ProteinQuant_Functions.R")
+source("Scripts/ProteinQuant_Functions.R")
 
 dir.create("Tables")
 
-Proteins <- read.csv("ClusterResults.csv")
+Proteins <- read.csv("Temp/ClusterResults.csv")
 
-<<<<<<< HEAD
-Proteins <- rename(Proteins, replace = c("X" = "Protein_ID"))
-=======
 #Proteins <- rename(Proteins, replace = c("X" = "Protein_ID"))
 names(Proteins)[1] <- "Protein_ID"
->>>>>>> 5cdeaf4b7e41f44a5a78e3102cf3813c75cfb344
 
 # Fix Accession numbers:
 accession <- gsub("^.*?\\|","",Proteins$Protein_ID)
@@ -92,7 +84,7 @@ write.csv(Table1,"Tables/table_1_ExosomeMarkers.csv", row.names=F)
 # write.csv(Table2,"Tables/table_2_both.csv", row.names=F)
 
 ######### Table 3: PM marker table ###################################################################
-PM <- read.csv("PM_Markers.csv")
+PM <- read.csv("Temp/PM_Markers.csv")
 PM <- PM$Protein.Id
 TS2names <- c("svm","Gene_Name","Description","Log2_Ratio_130.129","Log2_Ratio_131.129","svm.scores")
 TableS2 <- Proteins[Proteins$Protein_ID %in% PM, TS2names]
@@ -121,7 +113,7 @@ names(SI1) <- c("Protein Group", "Uniprot Accession", "Gene Symbol", "Protein De
 write.csv(SI1,"Tables/SI-1_Proteins.csv",row.names=F)
 
 ##### SI list 2: Peptides ###########################################################################
-Peptides <- read.csv("peptide_list.csv", as.is = T)
+Peptides <- read.csv("Temp/peptide_list.csv", as.is = T)
 SI2names <- c("Assigned_Protein","Net.peptide","Ratio_130.129","Ratio_131.129","Number","Replicate")
 SI2 <- Peptides[,SI2names]
 SI2 <- SI2[SI2$Assigned_Protein %in% Proteins$Protein_ID,]
@@ -151,15 +143,15 @@ write.csv(SI2,"Tables/SI-2_Peptides.csv",row.names=F)
 
 GN_Exosome <- Proteins$Gene_Name[Proteins$svm == "Exosome"]
 GN_Non_Exosome <- Proteins$Gene_Name[Proteins$svm == "Non-Exosome"]
-write.table(GN_Non_Exosome,"GN_Non.txt",row.names=F,quote=F,col.names=F)
-write.table(GN_Exosome,"GN_Exo.txt",row.names=F,quote=F,col.names=F)
+write.table(GN_Non_Exosome,"Temp/GN_Non.txt",row.names=F,quote=F,col.names=F)
+write.table(GN_Exosome,"Temp/GN_Exo.txt",row.names=F,quote=F,col.names=F)
 
 #### Import the Results from DAVID ##################################################################
-DAVID_Exo <- read.delim("DAVID_Exo.txt", as.is=T)
+DAVID_Exo <- read.delim("Data/DAVID_Exo.txt", as.is=T)
 DAVID_Exo$GO <- gsub("~.*$","",DAVID_Exo$Term)
-DAVID_Non <- read.delim("DAVID_Non_Exo.txt", as.is=T)
+DAVID_Non <- read.delim("Data/DAVID_Non_Exo.txt", as.is=T)
 DAVID_Non$GO <- gsub("~.*$","",DAVID_Non$Term)
-GoTerms <- read.csv("GoTerms.csv",as.is=T)
+GoTerms <- read.csv("Data/GoTerms.csv",as.is=T)
 Exo <- sapply(GoTerms$GO.ID,function(x) DAVID_Exo$Count[DAVID_Exo$GO == x])
 NonExo <- sapply(GoTerms$GO.ID,function(x) DAVID_Non$Count[DAVID_Non$GO == x])
 

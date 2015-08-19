@@ -1,16 +1,16 @@
 "GO.ID","Name","Exo","NonExo"
-"GO:0070013","Intracellular Organelle Lumen",14,389
-"GO:0031981","Nuclear Lumen",12,259
-"GO:0005759","Mitochondrial Matrix",1,97
+"GO:0070013","Intracellular Organelle Lumen",8,397
+"GO:0031981","Nuclear Lumen",7,266
+"GO:0005759","Mitochondrial Matrix",0,98
 "GO:0005796","Golgi Lumen",0,0
 "GO:0005788","Endoplasmic Reticulum Lumen",1,31
 "GO:0031904","Endosome Lumen",1,0
-"GO:0031090","Organelle Membrane",22,263
+"GO:0031090","Organelle Membrane",12,273
 "GO:0031965","Nuclear Membrane",0,27
 "GO:0031966","Mitochondrial Membrane",1,135
-"GO:0000139","Golgi Membrane",6,32
-"GO:0005789","Endoplasmic Reticulum Membrane",3,48
-"GO:0010008","Endosome Membrane",7,8
-"GO:0005829","Cytosol",42,354
-"GO:0005886","Plasma Membrane",162,303
-"GO:0031012","Extracellular Matrix",18,25
+"GO:0000139","Golgi Membrane",4,33
+"GO:0005789","Endoplasmic Reticulum Membrane",2,49
+"GO:0010008","Endosome Membrane",4,10
+"GO:0005829","Cytosol",32,365
+"GO:0005886","Plasma Membrane",119,347
+"GO:0031012","Extracellular Matrix",15,26

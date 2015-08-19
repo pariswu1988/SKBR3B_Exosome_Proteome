@@ -1,5 +1,3 @@
-#! c:\"Program Files"\R\R-3.1.1\bin\x64\Rscript --vanilla
-
 ##############################################################################################
 ### ProteinQuant.R ###########################################################################
 ##############################################################################################
@@ -18,7 +16,7 @@
 # Import the libraries we will use
 library("plyr")
 library("data.table")
-source("ProteinQuant_Functions.R")
+source("scripts/ProteinQuant_Functions.R")
 
 
 ###############################################################################################
@@ -27,7 +25,7 @@ source("ProteinQuant_Functions.R")
 
 # "noC" in the file name indicates that I replace commas with semi-colons using as search and 
 # replace in Excel. This was necessary to read the file in correctly.
-peptides1 <- read.delim("all_peptide_Rep1_noC.txt", header = T)
+peptides1 <- read.delim("Data/all_peptide_Rep1_noC.txt", header = T)
 
 # Change some columns to more usable names
 peptides1 <- rename(peptides1, c("Ratio_130.1411.129.1378_Weighted.Average"="Ratio_130.129",
@@ -35,7 +33,7 @@ peptides1 <- rename(peptides1, c("Ratio_130.1411.129.1378_Weighted.Average"="Rat
                                   "Ratio_129.1378.129.1378_Weighted.Average"="Ratio_129.129",
                                   "Protien.description"="Description"))
 
-peptides2 <- read.delim("all_peptide_Rep2_noC.txt", header = T)
+peptides2 <- read.delim("Data/all_peptide_Rep2_noC.txt", header = T)
 
 peptides2 <- rename(peptides2, c("Ratio_130.1411.129.1378_Weighted.Average"="Ratio_130.129",
                                  "Ratio_131.1382.129.1378_Weighted.Average"="Ratio_131.129",
@@ -124,7 +122,7 @@ pep_fdr2 <- nrow(decoy1)/nrow(peptides2_real)
 
 # Parses in the ProteinProphet results saved in a csv file directly from ProteinProphet.
 if (!exists("ProtProph_Combined")){
-  ProtProph_Combined <- Parse_ProtProph("ProteinProphet_Combined.csv")
+  ProtProph_Combined <- Parse_ProtProph("Data/ProteinProphet_Combined.csv")
 }
 
 # Creates list of dataframes containging peptides. Each dataframe contains the peptides
@@ -161,7 +159,7 @@ Proteins_Combined <- Proteins_Combined[Proteins_Combined$Probability != 0,]
 
 # Reads the UniProt identifiers from the database we used and matches them to the 
 # protein description.
-Key <- ID_Key("UniProtKB-human-2014_DECOY.fasta")
+Key <- ID_Key("Data/UniProtKB-human-2014_DECOY.fasta")
 Proteins_Combined <- merge(Proteins_Combined, Key, by = "Protein")
 
 # Calculates the average for each protein between the 2 replicates
@@ -183,9 +181,9 @@ Proteins_Combined$Description <- gsub(",",";",Proteins_Combined$Description)
 # Matches the identified peptides witha  protein ID and description then saves
 # it as a raw peptide list.
 Peptides <- Peptide_List(Proteins_Combined,Merged_Peptides)
-write.csv(Peptides,"peptide_list.csv", row.names=F)
+write.csv(Peptides,"Temp/peptide_list.csv", row.names=F)
 
 
 # Write the Protein results to a CSV.
-write.csv(Proteins_Combined,"Proteins.csv", row.names=F)
+write.csv(Proteins_Combined,"Temp/Proteins.csv", row.names=F)
 

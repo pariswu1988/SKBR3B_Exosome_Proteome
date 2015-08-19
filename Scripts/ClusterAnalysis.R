@@ -26,7 +26,7 @@ library("plyr")
 ##################################################################################################
 
 # Importing your Protein Data
-proteins <- read.csv("Proteins.csv")
+proteins <- read.csv("Temp/Proteins.csv")
 
 proteins$Log2_Ratio_130.129 <- proteins$Ratio_130.129
 proteins$Log2_Ratio_131.129 <- proteins$Ratio_131.129
@@ -34,9 +34,9 @@ proteins$Log2_Ratio_131.129 <- proteins$Ratio_131.129
 write.csv(data.frame(proteins$Protein, 
                      proteins$Log2_Ratio_130.129, 
                      proteins$Log2_Ratio_131.129), 
-          "exprsData.csv", row.names = F,quote = F)
+          "Temp/exprsData.csv", row.names = F,quote = F)
 
-exprsData <- "exprsData.csv"
+exprsData <- "Temp/exprsData.csv"
 
 
 
@@ -52,9 +52,9 @@ write.csv(data.frame(proteins$Protein,
                      proteins$Protein_Group,
                      proteins$Ratio_130.129,
                      proteins$Ratio_131.129),
-          "fData.csv", row.names = F,quote = F)
+          "Temp/fData.csv", row.names = F,quote = F)
 
-fData <- "fData.csv"
+fData <- "Temp/fData.csv"
 
 ##################################################################################################
 ####### Data Transformation and Clustering #######################################################
@@ -65,7 +65,7 @@ Data <- readMSnSet(exprsFile = exprsData, featureDataFile = fData, sep=",")
 Data <- log(Data, 2) # Changed to log2 scale for fold change
 
 #Add localization markers to the data
-marked <- addMarkers(Data, "markers.csv")
+marked <- addMarkers(Data, "Data/markers.csv")
 
 #Cluster analysis using SVM (for good results time should = 100)
 #Seed set for reproducibility.
@@ -101,4 +101,4 @@ Order <- c("Description","Gene_Name","Probability","svm","svm.scores",
            "Protein_Group","markers","Coverage")
 
 CSV <- PlotData[,Order] #Reorder columns for spreadsheet
-write.csv(CSV, file = "ClusterResults.csv")
+write.csv(CSV, file = "Temp/ClusterResults.csv")

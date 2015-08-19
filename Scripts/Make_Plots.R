@@ -17,11 +17,11 @@
 library("plyr")
 library("ggplot2")
 library("grid")
-source("Plot_Functions.R")
+source("Scripts/Plot_Functions.R")
 
 dir.create("Figures")
 
-data <- read.csv("ClusterResults.csv")
+data <- read.csv("Temp/ClusterResults.csv")
 data <- rename(data,c("X" = "Protein.Id"))
 
 
@@ -56,7 +56,7 @@ ggsave(file = "Figures/ScatterPlot_M.tiff",width=8.5,height=6.57,units = "cm")
 #################################################################
 
 Scatter_M_Helper <- scatter_plot_marked(data)
-markers <- read.csv("markers.csv", as.is = T)
+markers <- read.csv("Data/markers.csv", as.is = T)
 data2 <- data
 data2$Protein.Id <- levels(data2$Protein.Id)
 markers$Regex <- sapply(markers$Protein, function(x) gsub("\\|","\\\\|",x))
@@ -91,7 +91,7 @@ PM_csv <- PM_csv[!is.na(PM_csv$pRolocmarkers),]
 PM_csv2 <- PM_csv[,c(2,3,4,5,6,7,9)]
 PM_csv2 <- rename(PM_csv, c("Ratio_130.129" = "log2_Ratio_130.129",
                            "Ratio_131.129" = "log2_Ratio_131.129"))
-write.csv(PM_csv2,"PM_markers.csv",row.names=F)
+write.csv(PM_csv2,"Temp/PM_markers.csv",row.names=F)
 
 ###################################################################
 
