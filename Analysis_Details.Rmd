@@ -1,0 +1,156 @@
+---
+title: "Analysis of the SKBR3B Exosome Proteome"
+author: "Will Fondrie"
+date: "August 20, 2015"
+output: html_document
+---
+
+## Introduction
+
+### GitHub Repository
+All of the code used in our anlaysis can be viewed in our [GitHub Repository](http://github.com/wfondrie/SKBR3B_Exosome_Proteome).
+
+### Description
+This collection of scripts were used to analyze the proteomics data from the manuscript titled, “Redefining the breast cancer exosome proteome by tandem mass tag quantitative proteomics and multivariate cluster analysis” by David J Clark et al. The analysis performed by these scripts uses the peptide ratios that were calculated using Quantimore (formerly IsoQuant), calculates the protein ratios and performs SVM multivariate analysis to cluster proteins into groups likely to be of exosomal origin or not from the exosome.
+
+### Experiment Detail
+Shotgun proteomics data was acquired using tri-plexed tandem mass tags (TMT), specifically TMT-129,130 and 131 in 2 replicates. The 3 tags represent different points in a traditional exosome isolation strategy, where TMT-129 is a 10,000 x g pellet, TMT-130 is a 100,000 x g supernatant, and TMT-131 is the exosome fraction from an Optiprep density gradient. The raw mass spectra were searhed using Comet. Peptide IDs were validated using PeptideProphet, keeping all peptides above 0.8 PeptideProphet probability (1% FDR) for quantitation. ProteinProphet was used to infer protein evidence using all identified peptides. Peptide quantitation was performed on the filtered PeptideProphet results using QuantiMORE. These results are used as the input for these scripts.
+
+## Inputs for analysis
+**Peptide Quantiation Results from QuantiMORE**  
+*"noC" indicates that we used Excel search to replace all commas with semi-colons in order to csv parsing issues.*
+
++ all_peptide_Rep1_noC.txt  
++ all_peptide_Rep2_noC.txt 
+  
+**Results from ProteinProphet**  
+*These are the results from ProteinProphet exported as a excel spreadsheet then saved as a csv.*
+
++ ProteinProphet_Combined.csv  
+
+**FASTA Protein Database**  
+*This is needed to get the protein descriptions.*
+
++ UniProtKB-human-2014_DECOY.fasta  
+
+**The Exosome and Non-Exosome Markers**  
+*These are the markers we hand-picked as a training set for our SVM analysis.*
+
++ markers.csv  
++ markers_exocarta.csv
+
+## R scripts
+1. **ProtQuant.R** - *Depends on ProtQuant_Functions.R.* This script is used to calculate the protein ratios for each replicate, independently based on the peptides assigned to each protein by ProteinProphet. The protein ratio is calculated as the average of the peptide ratios assiged to it, weighted by the number of quantified PSMs for each peptide. An equation to represent this calculation is shown below, n represents the number of peptides quantified for a given protein:
+
+$$ Protein Ratio = \frac{\sum_{i=1}^{n}PSMs_{i} * PeptideRatio_{i}}{\sum_{i=1}^{n}PSMs_{i}} $$  
+    
+2. **ProtQuant_Functions.R** - Contains the functions needed to read in the ProteinProphet files and perform the protein quantitation in *ProtQuant.R*.
+
+3. **ClusterAnalysis.R** - Performs the SVM cluster analysis on the protein ratios obtained from *ProtQuant.R*. For our final anlysis, the SVM parameters were optimized over 100 iterations (time=100) and 5x cross-validation (xval=5). This was performed based on the [pRoloc tutorial](http://www.bioconductor.org/packages/release/bioc/vignettes/pRoloc/inst/doc/pRoloc-tutorial.pdf) on Bioconductor.
+
+4. **Make_Plots.R** - *Depends on Plot_Functions.R.* Creates figures to represent our data using ggplot2. These were further annotated using Adobe Illustrator to to yield the figures seen in the published manuscript. Note that results from this script are written to a "Figures" folder in your working directory
+
+5. **Plot_Functions.R** - Contains the R code to creat most of the presented figures using ggplot2.
+
+6. **Make_Tables.R** - Creates intelligible tables from the dataframes used in this analysis. These tables are the unformatted versions of the tables seen in the published manuscript. Note that the results from this script are written to a "Tables" folder in your working directory.
+
+### Reproducing the Analysis
+To perform the same analysis that is seen in our manuscript, the following code can be executed:
+
+```{r, warning=F, message=F,results="hide", cache = T, comment=F}
+source("Scripts/ProteinQuant.R")
+source("Scripts/ClusterAnalysis.R")
+source("Scripts/Make_Plots.R")
+source("Scripts/Make_Tables.R")
+```
+
+## Final Outputs
+### Figures
+1. **ClusterPlot.pdf** and **ClusterPlot.tiff** - A plot of our SVM cluster analysis results with the Exosome and the Non-Exosome markers shown in black.
+
+```{r, warning=F, echo=F, fig.height=3.19, fig.width=3.35}
+Cluster
+```
+
+2. **PM_MarkerPlot.pdf** and **PM_MarkerPlot.tiff** - A plot of our SVM cluster analysis results with the plasma membrane markers from pRoloc shown in black.
+
+```{r, warning=F, echo=F, fig.height=3.19, fig.width=3.35}
+PM_Markers
+```
+
+3. **ScatterPlot.pdf** and **ScatterPlot.tiff** - A scatter plot of the Log2 protein ratios for all of our quantified proteins.
+
+```{r, warning=F, echo=F, fig.height=2.59, fig.width=3.35}
+Scatter
+```
+
+4. **ScatterPlot_M.pdf** and **ScatterPlot_M.tiff** - A scatter plot of the Log2 protein ratios for all of our quantified proteins with Exosome and Non-Exosome markers shown in color.
+
+```{r, warning=F, echo=F, fig.height=2.59, fig.width=3.35}
+Scatter_M
+```
+
+
+5. **CoverPlot.tiff** - A version of our SVM cluster analysis for use as a cover picture.
+
+```{r, warning=F, echo=F, fig.height=1.97, fig.width=3.54}
+Cover
+```
+
+6. **Cluster_rev.tiff** - Plots the TMT 130/129 vs TMT 131/130 protein ratios while coloring the proteins according to our prior SVM analysis above. 
+
+```{r, warning=F, echo=F, fig.height=3.19, fig.width=3.35}
+revPlot
+```
+
+7. **Validation_Venn.tiff** - A euler diagram displaying the protein overlap of our size exclusion chromatography exosome preparation to the exosome and non-exosome clusters.
+
+```{r, warning=F, echo=F, fig.width=3.35, fig.height=2.36}
+plot
+```
+
+### Tables
+Below are the final tables output by the analysis scripts. Each contains the file name, description and first 5 rows.
+
+1. **SI-1_Proteins.csv** - contains a detailed protein list with protein quantitation information.
+
+```{r, results='asis', echo = F}
+library(knitr)
+t <- head(SI1)
+kable(t, digits = 2, row.names = F, alight = 'l')
+```
+
+2. **SI-2_Peptides.csv** - contains a peptide list with the assigned protein and peptide quantitation information.
+
+```{r, echo = F, results='asis'}
+t <- head(SI2)
+kable(t, digits = 2, row.names = F, alight = 'l')
+```
+
+3. **table_1_ExosomeMarkers.csv** - contains the list of exosome and non-exosome markers with protein quantitation information.
+
+```{r, echo = F, results='asis'}
+t <- head(Table1)
+kable(t, digits = 2, row.names = F, alight = 'l')
+```
+
+4. **table_S1_AllProteins.csv** - contains a simplified protein list.
+
+```{r, echo = F, results='asis'}
+t <- head(TableS1)
+kable(t, digits = 2, row.names = F, alight = 'l')
+```
+
+5. **table_S2_PMMarkers.csv** - contains a list of the plasma membrane markers used from the pRoloc markers data set.
+
+```{r, echo = F, results='asis'}
+t <- head(TableS2)
+kable(t, digits = 2, row.names = F, alight = 'l')
+```
+
+6. **SI-3_SEC_Proteins.csv** - contains a list of the protein identifcations from our size exclusion chromatography exosome preparation.
+
+```{r, echo = F, results='asis'}
+t <- head(sec)
+kable(t, digits = 2, row.names = F, alight = 'l')
+```
