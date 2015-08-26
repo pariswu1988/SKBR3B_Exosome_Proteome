@@ -110,3 +110,7 @@ revPlot <- cluster_plot_rev(data)
 revPlot
 
 ggsave(file = "Figures/Cluster_rev.tiff",width=8.5,height=8.10,units = "cm")
+
+
+## Validation Venn Diagram #######################################
+source("Scripts/Validation.R")

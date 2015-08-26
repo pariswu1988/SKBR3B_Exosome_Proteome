@@ -1,5 +1,3 @@
-#! c:\"Program Files"\R\R-3.1.1\bin\x64\Rscript --vanilla
-
 ##############################################################################################
 ### ClusterAnalysis.R ########################################################################
 ##############################################################################################
@@ -69,7 +67,7 @@ marked <- addMarkers(Data, "Data/markers_exocarta.csv")
 
 #Cluster analysis using SVM (for good results time should = 100)
 #Seed set for reproducibility.
-params <- svmOptimisation(marked, time = 10, xval=5, seed = 1)
+params <- svmOptimisation(marked, time = 100, xval=5, seed = 1)
 ClusterData <- svmClassification(marked,params)
 
 #Save resulting data into a Data frame for easy plotting and manipulation

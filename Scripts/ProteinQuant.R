@@ -64,7 +64,7 @@ peptides2_real <- data.table()
 # These for loops actually do the combining of peptides so that there is only one entry per
 # per unique peptide sequence per replicate. Anything variables named pb are progress bars I used to
 # make sure the loops were still running.
-pb1 <- txtProgressBar(min = 0, max = length(unique_pep1), style = 3)
+#pb1 <- txtProgressBar(min = 0, max = length(unique_pep1), style = 3)
 for (i in 1:length(unique_pep1)){
   current <- unique_pep1[i]
   current <- peptides1[peptides1$Net.peptide %in% current,]
@@ -78,10 +78,10 @@ for (i in 1:length(unique_pep1)){
   entry <- entry[,names(entry) %in% ddrop]
   entry$Replicate[1] <- 1
   peptides1_real <- rbind(peptides1_real,entry)
-  setTxtProgressBar(pb1, i)
+  #setTxtProgressBar(pb1, i)
 }
 
-pb2 <- txtProgressBar(min = 0, max = length(unique_pep2), style = 3)
+#pb2 <- txtProgressBar(min = 0, max = length(unique_pep2), style = 3)
 for (i in 1:length(unique_pep2)){
   current <- unique_pep2[i]
   current <- peptides2[peptides2$Net.peptide %in% current,]
@@ -95,7 +95,7 @@ for (i in 1:length(unique_pep2)){
   entry <- entry[,names(entry) %in% ddrop]
   entry$Replicate <- 2
   peptides2_real <- rbind(peptides2_real,entry)
-  setTxtProgressBar(pb2, i)
+  #setTxtProgressBar(pb2, i)
 }
 
 # Once again, we want character vectors for matching instead of factor vectors.

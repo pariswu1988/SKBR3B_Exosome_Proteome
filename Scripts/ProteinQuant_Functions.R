@@ -98,7 +98,7 @@ Prot_Quant <- function(Proteins,Assigned_Peptides){
 ID_Key <- function(Database){
   DB_File <- file(Database)
   DB <- readLines(DB_File)
-  on.exit(close(DB_File))
+  close(DB_File)
   
   DB <- DB[grepl("^>", DB) & !grepl("^>DECOY", DB)]
   

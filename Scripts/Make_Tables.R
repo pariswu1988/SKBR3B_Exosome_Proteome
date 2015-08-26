@@ -140,59 +140,68 @@ write.csv(SI2,"Tables/SI-2_Peptides.csv",row.names=F)
 ##### SI list 3: KRONA Classifications ##############################################################
 # Generate gene lists to do Krona Classifications                                                   #
 #####################################################################################################
-
-GN_Exosome <- Proteins$Gene_Name[Proteins$svm == "Exosome"]
-GN_Non_Exosome <- Proteins$Gene_Name[Proteins$svm == "Non-Exosome"]
-write.table(GN_Non_Exosome,"Temp/GN_Non.txt",row.names=F,quote=F,col.names=F)
-write.table(GN_Exosome,"Temp/GN_Exo.txt",row.names=F,quote=F,col.names=F)
+# 
+# GN_Exosome <- Proteins$Gene_Name[Proteins$svm == "Exosome"]
+# GN_Non_Exosome <- Proteins$Gene_Name[Proteins$svm == "Non-Exosome"]
+# write.table(GN_Non_Exosome,"Temp/GN_Non.txt",row.names=F,quote=F,col.names=F)
+# write.table(GN_Exosome,"Temp/GN_Exo.txt",row.names=F,quote=F,col.names=F)
 
 #### Import the Results from DAVID ##################################################################
-DAVID_Exo <- read.delim("Data/DAVID_Exo.txt", as.is=T)
-DAVID_Exo$GO <- gsub("~.*$","",DAVID_Exo$Term)
-DAVID_Non <- read.delim("Data/DAVID_Non_Exo.txt", as.is=T)
-DAVID_Non$GO <- gsub("~.*$","",DAVID_Non$Term)
-GoTerms <- read.csv("Data/GoTerms.csv",as.is=T)
-Exo <- sapply(GoTerms$GO.ID,function(x) DAVID_Exo$Count[DAVID_Exo$GO == x])
-NonExo <- sapply(GoTerms$GO.ID,function(x) DAVID_Non$Count[DAVID_Non$GO == x])
+# DAVID_Exo <- read.delim("Data/DAVID_Exo.txt", as.is=T)
+# DAVID_Exo$GO <- gsub("~.*$","",DAVID_Exo$Term)
+# DAVID_Non <- read.delim("Data/DAVID_Non_Exo.txt", as.is=T)
+# DAVID_Non$GO <- gsub("~.*$","",DAVID_Non$Term)
+# GoTerms <- read.csv("Data/GoTerms.csv",as.is=T)
+# Exo <- sapply(GoTerms$GO.ID,function(x) DAVID_Exo$Count[DAVID_Exo$GO == x])
+# NonExo <- sapply(GoTerms$GO.ID,function(x) DAVID_Non$Count[DAVID_Non$GO == x])
+# 
+# for(i in 1:nrow(GoTerms)){
+#   if(length(Exo[[i]]) == 0 ){ Exo[[i]] <- 0 }
+#   if(length(NonExo[[i]]) == 0 ){ NonExo[[i]] <- 0}
+#   
+# }
+# 
+# GoTerms$Exo <- unlist(Exo)
+# GoTerms$NonExo <- unlist(NonExo)
+# 
+# write.csv(GoTerms, "Tables/Krona_GO_Counts.csv",row.names=F)
+# 
+# 
+# for(i in 1:nrow(GoTerms)){
+#   a <- DAVID_Exo$Gene[DAVID_Exo$GO == GoTerms$GO.ID[i]]
+#   b <- DAVID_Non$Gene[DAVID_Non$GO == GoTerms$GO.ID[i]]
+#   if(length(a)==0){a <- ""}
+#   if(length(b)==0){b <- ""}
+#   GoTerms$ExoProt[i] <- a
+#   GoTerms$NonExoProt[i] <- b
+# }
+# Proteins$GO <- rep("",nrow(Proteins))
+# 
+# for(i in 1:nrow(GoTerms)){
+#   genes <- c(unlist(strsplit(GoTerms$ExoProt[i], ", ", fixed = T)),
+#              unlist(strsplit(GoTerms$NonExoProt[i],", ", fixed = T)))
+#   idx <- Proteins$Gene_Name %in% genes
+#   Term <- paste(GoTerms$GO.ID[i], GoTerms$Name[i], sep = " ")
+#   Proteins$GO[idx] <- paste(Proteins$GO[idx],Term, sep= "; ")
+# }
+# 
+# Proteins$GO <- gsub("^; ","", Proteins$GO)
+# 
+# KRONA <- Proteins[,c("accession","Gene_Name","Description","GO","svm")]
+# names(KRONA) <- c("Uniprot Accession","Gene Name","Description","Gene Ontology Classifications",
+#                   "SVM Classification")
+# 
+# write.csv(KRONA,"Tables/SI-3_Krona.csv",row.names=F)
 
-for(i in 1:nrow(GoTerms)){
-  if(length(Exo[[i]]) == 0 ){ Exo[[i]] <- 0 }
-  if(length(NonExo[[i]]) == 0 ){ NonExo[[i]] <- 0}
-  
-}
+### Validation Proteins Table ########################################
 
-GoTerms$Exo <- unlist(Exo)
-GoTerms$NonExo <- unlist(NonExo)
+sec <- read.csv("Temp/SEC_proteins.csv")
 
-write.csv(GoTerms, "Tables/Krona_GO_Counts.csv",row.names=F)
+keep <- c("Protein","Description","Gene_Name","Entry_Num", "Probability")
+sec <- sec[order(sec$Entry_Num),keep]
+sec$Protein <- gsub("^.*\\|","",sec$Protein)
+sec$Protein <- gsub("_.*$","",sec$Protein)
 
-
-for(i in 1:nrow(GoTerms)){
-  a <- DAVID_Exo$Gene[DAVID_Exo$GO == GoTerms$GO.ID[i]]
-  b <- DAVID_Non$Gene[DAVID_Non$GO == GoTerms$GO.ID[i]]
-  if(length(a)==0){a <- ""}
-  if(length(b)==0){b <- ""}
-  GoTerms$ExoProt[i] <- a
-  GoTerms$NonExoProt[i] <- b
-}
-Proteins$GO <- rep("",nrow(Proteins))
-
-for(i in 1:nrow(GoTerms)){
-  genes <- c(unlist(strsplit(GoTerms$ExoProt[i], ", ", fixed = T)),
-             unlist(strsplit(GoTerms$NonExoProt[i],", ", fixed = T)))
-  idx <- Proteins$Gene_Name %in% genes
-  Term <- paste(GoTerms$GO.ID[i], GoTerms$Name[i], sep = " ")
-  Proteins$GO[idx] <- paste(Proteins$GO[idx],Term, sep= "; ")
-}
-
-Proteins$GO <- gsub("^; ","", Proteins$GO)
-
-KRONA <- Proteins[,c("accession","Gene_Name","Description","GO","svm")]
-names(KRONA) <- c("Uniprot Accession","Gene Name","Description","Gene Ontology Classifications",
-                  "SVM Classification")
-
-write.csv(KRONA,"Tables/SI-3_Krona.csv",row.names=F)
-
-##### Panther Classifications #######################################################################
-# David should be handling these                                                                    #
-#####################################################################################################
+names(sec) <- c("Uniprot Accession", "Protein Description", "Gene Symbol", "Protein Group",
+                "ProteinProphet Probability")
+write.csv(sec, "Tables/SI-3_SEC_Proteins.csv", row.names=F)
