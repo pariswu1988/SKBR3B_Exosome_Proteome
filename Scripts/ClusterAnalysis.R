@@ -65,11 +65,11 @@ Data <- readMSnSet(exprsFile = exprsData, featureDataFile = fData, sep=",")
 Data <- log(Data, 2) # Changed to log2 scale for fold change
 
 #Add localization markers to the data
-marked <- addMarkers(Data, "Data/markers.csv")
+marked <- addMarkers(Data, "Data/markers_exocarta.csv")
 
 #Cluster analysis using SVM (for good results time should = 100)
 #Seed set for reproducibility.
-params <- svmOptimisation(marked, time = 100, xval=5, seed = 1)
+params <- svmOptimisation(marked, time = 10, xval=5, seed = 1)
 ClusterData <- svmClassification(marked,params)
 
 #Save resulting data into a Data frame for easy plotting and manipulation
@@ -102,3 +102,5 @@ Order <- c("Description","Gene_Name","Probability","svm","svm.scores",
 
 CSV <- PlotData[,Order] #Reorder columns for spreadsheet
 write.csv(CSV, file = "Temp/ClusterResults.csv")
+
+nrow(PlotData[PlotData$svm=="Exosome",])
