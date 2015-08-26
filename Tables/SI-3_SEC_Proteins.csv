@@ -1,0 +1,639 @@
+"Uniprot Accession","Protein Description","Gene Symbol","Protein Group","ProteinProphet Probability"
+"VP37C","Vacuolar protein sorting-associated protein 37C ","VPS37C","1",1
+"SUSD5","Sushi domain-containing protein 5 ","SUSD5","10",1
+"CHM4B","Charged multivesicular body protein 4b ","CHMP4B","100",1
+"CDCP1","CUB domain-containing protein 1 ","CDCP1","101",1
+"MUC5B","Mucin-5B ","MUC5B","102",1
+"CD320","CD320 antigen ","CD320","103",1
+"GPC5C","G-protein coupled receptor family C group 5 member C ","GPRC5C","104",1
+"SERC1","Serine incorporator 1 ","SERINC1","105",1
+"TXLNG","Gamma-taxilin ","TXLNG","106",1
+"EHD2","EH domain-containing protein 2 ","EHD2","107",1
+"CHMP5","Charged multivesicular body protein 5 ","CHMP5","108",1
+"DIP2B","Disco-interacting protein 2 homolog B ","DIP2B","109",1
+"IGSF3","Immunoglobulin superfamily member 3 ","IGSF3","11",1
+"TEN3","Teneurin-3 ","TENM3","110",1
+"FPRP","Prostaglandin F2 receptor negative regulator ","PTGFRN","111",1
+"GBG12","Guanine nucleotide-binding protein G(I)/G(S)/G(O) subunit gamma-12 ","GNG12","112",1
+"DMBT1","Deleted in malignant brain tumors 1 protein ","DMBT1","113",1
+"SUSD2","Sushi domain-containing protein 2 ","SUSD2","114",1
+"RAB21","Ras-related protein Rab-21 ","RAB21","115",1
+"EPCR","Endothelial protein C receptor ","PROCR","116",1
+"CHMP3","Charged multivesicular body protein 3 ","CHMP3","117",1
+"TLN1","Talin-1 ","TLN1","118",1
+"PLXD1","Plexin-D1 ","PLXND1","119",1
+"TSN9","Tetraspanin-9 ","TSPAN9","12",1
+"CD2AP","CD2-associated protein ","CD2AP","120",1
+"S4A7","Sodium bicarbonate cotransporter 3 ","SLC4A7","121",1
+"SRCRL","Soluble scavenger receptor cysteine-rich domain-containing protein SSC5D ","SSC5D","123a",1
+"GGT3","Putative gamma-glutamyltranspeptidase 3 ","GGT3P","124a",1
+"SNP23","Synaptosomal-associated protein 23 ","SNAP23","125a",1
+"QSOX1","Sulfhydryl oxidase 1 ","QSOX1","126a",1
+"AGRIN","Agrin ","AGRN","127a",1
+"CYR61","Protein CYR61 ","CYR61","128a",1
+"ADA10","Disintegrin and metalloproteinase domain-containing protein 10 ","ADAM10","129a",1
+"SLIT2","Slit homolog 2 protein ","SLIT2","13",1
+"TR10B","Tumor necrosis factor receptor superfamily member 10B ","TNFRSF10B","130a",0.9996
+"TR10A","Tumor necrosis factor receptor superfamily member 10A ","TNFRSF10A","130b",0.9982
+"NRP1","Neuropilin-1 ","NRP1","131a",1
+"ML12B","Myosin regulatory light chain 12B ","MYL12B","132a",1
+"HGS","Hepatocyte growth factor-regulated tyrosine kinase substrate ","HGS","133a",1
+"AURKA","Aurora kinase A ","AURKA","134a",1
+"PLS1","Phospholipid scramblase 1 ","PLSCR1","135a",1
+"LAMA5","Laminin subunit alpha-5 ","LAMA5","136a",1
+"MOT4","Monocarboxylate transporter 4 ","SLC16A3","137a",1
+"DHX15","Putative pre-mRNA-splicing factor ATP-dependent RNA helicase DHX15 ","DHX15","138a",1
+"CHM2A","Charged multivesicular body protein 2a ","CHMP2A","139a",1
+"PRS23","Serine protease 23 ","PRSS23","14",1
+"TSN6","Tetraspanin-6 ","TSPAN6","140a",1
+"PLOD3","Procollagen-lysine,2-oxoglutarate 5-dioxygenase 3 ","PLOD3","141a",1
+"H2B1K","Histone H2B type 1-K ","HIST1H2BK","142a",1
+"H2B1J","Histone H2B type 1-J ","HIST1H2BJ","142b",1
+"DNJA2","DnaJ homolog subfamily A member 2 ","DNAJA2","143a",1
+"DNJB6","DnaJ homolog subfamily B member 6 ","DNAJB6","144a",1
+"LRP5","Low-density lipoprotein receptor-related protein 5 ","LRP5","145a",1
+"VPS4B","Vacuolar protein sorting-associated protein 4B ","VPS4B","146a",1
+"VPS4A","Vacuolar protein sorting-associated protein 4A ","VPS4A","146b",1
+"FLOT1","Flotillin-1 ","FLOT1","147a",1
+"CBPD","Carboxypeptidase D ","CPD","148a",1
+"KT33A","Keratin, type I cuticular Ha3-I ","KRT33A","149a",1
+"AP2A1","AP-2 complex subunit alpha-1 ","AP2A1","15",1
+"LPHN2","Latrophilin-2 ","LPHN2","150a",1
+"STABP","STAM-binding protein ","STAMBP","151a",1
+"EGFR","Epidermal growth factor receptor ","EGFR","152a",1
+"PGK1","Phosphoglycerate kinase 1 ","PGK1","153a",1
+"THRB","Prothrombin ","F2","154a",1
+"HPT","Haptoglobin ","HP","155a",1
+"ANT3","Antithrombin-III ","SERPINC1","156a",1
+"A2MG","Alpha-2-macroglobulin ","A2M","157a",1
+"PZP","Pregnancy zone protein ","PZP","157b",1
+"RASN","GTPase NRas ","NRAS","158a",1
+"LDLR","Low-density lipoprotein receptor ","LDLR","159a",1
+"TSN15","Tetraspanin-15 ","TSPAN15","16",1
+"1A02","HLA class I histocompatibility antigen, A-2 alpha chain ","HLA-A","160a",1
+"1A34","HLA class I histocompatibility antigen, A-34 alpha chain ","HLA-A","160b",1
+"HBD","Hemoglobin subunit delta ","HBD","161a",1
+"CO4A1","Collagen alpha-1(IV) chain ","COL4A1","162a",1
+"FINC","Fibronectin ","FN1","163a",1
+"FETUA","Alpha-2-HS-glycoprotein ","AHSG","164a",1
+"ALBU","Serum albumin ","ALB","165a",1
+"TFR1","Transferrin receptor protein 1 ","TFRC","166a",1
+"VTNC","Vitronectin ","VTN","167a",1
+"ALDOA","Fructose-bisphosphate aldolase A ","ALDOA","168a",1
+"ANXA1","Annexin A1 ","ANXA1","169a",1
+"CO1A1","Collagen alpha-1(I) chain ","COL1A1","17",1
+"APOB","Apolipoprotein B-100 ","APOB","170a",1
+"PRIO","Major prion protein ","PRNP","171a",1
+"K2C1","Keratin, type II cytoskeletal 1 ","KRT1","172a",1
+"K22E","Keratin, type II cytoskeletal 2 epidermal ","KRT2","172b",1
+"K2C5","Keratin, type II cytoskeletal 5 ","KRT5","172c",1
+"KRT86","Keratin, type II cuticular Hb6 ","KRT86","172d",0.9993
+"VIME","Vimentin ","VIM","172e",0.9988
+"K2C78","Keratin, type II cytoskeletal 78 ","KRT78","172f",0.9986
+"K2C7","Keratin, type II cytoskeletal 7 ","KRT7","172g",0.9455
+"GNAI2","Guanine nucleotide-binding protein G(i) subunit alpha-2 ","GNAI2","173a",1
+"GNAI3","Guanine nucleotide-binding protein G(k) subunit alpha ","GNAI3","173b",1
+"GNAS2","Guanine nucleotide-binding protein G(s) subunit alpha isoforms short ","GNAS","173c",1
+"GNA13","Guanine nucleotide-binding protein subunit alpha-13 ","GNA13","173d",1
+"GNA11","Guanine nucleotide-binding protein subunit alpha-11 ","GNA11","173e",1
+"GNAQ","Guanine nucleotide-binding protein G(q) subunit alpha ","GNAQ","173f",1
+"GNAI1","Guanine nucleotide-binding protein G(i) subunit alpha-1 ","GNAI1","173g",0.9997
+"H2A1B","Histone H2A type 1-B/E ","HIST1H2AB","174a",1
+"AT1A1","Sodium/potassium-transporting ATPase subunit alpha-1 ","ATP1A1","175a",1
+"AT1B1","Sodium/potassium-transporting ATPase subunit beta-1 ","ATP1B1","176a",1
+"A4","Amyloid beta A4 protein ","APP","177a",1
+"ITB3","Integrin beta-3 ","ITGB3","178a",1
+"PPB1","Alkaline phosphatase, placental type ","ALPP","179a",1
+"CO2A1","Collagen alpha-1(II) chain ","COL2A1","18",1
+"ICAM1","Intercellular adhesion molecule 1 ","ICAM1","180a",1
+"ITB1","Integrin beta-1 ","ITGB1","181a",1
+"GELS","Gelsolin ","GSN","182a",1
+"ENOA","Alpha-enolase ","ENO1","183a",1
+"NPM","Nucleophosmin ","NPM1","184a",1
+"ITAV","Integrin alpha-V ","ITGAV","185a",1
+"ANXA2","Annexin A2 ","ANXA2","186a",1
+"TBB5","Tubulin beta chain ","TUBB","187a",1
+"TBB1","Tubulin beta-1 chain ","TUBB1","187b",0.9995
+"TBB4B","Tubulin beta-4B chain ","TUBB4B","187c",0.9987
+"PROF1","Profilin-1 ","PFN1","188a",1
+"LAMB1","Laminin subunit beta-1 ","LAMB1","189a",1
+"APOA1","Apolipoprotein A-I ","APOA1","19",1
+"TSP1","Thrombospondin-1 ","THBS1","190a",1
+"ANXA6","Annexin A6 ","ANXA6","191a",1
+"DAF","Complement decay-accelerating factor ","CD55","192a",1
+"4F2","4F2 cell-surface antigen heavy chain ","SLC3A2","193a",1
+"HS90B","Heat shock protein HSP 90-beta ","HSP90AB1","194a",1
+"HS90A","Heat shock protein HSP 90-alpha ","HSP90AA1","194b",1
+"CO4A2","Collagen alpha-2(IV) chain ","COL4A2","195a",1
+"TRFM","Melanotransferrin ","MFI2","196a",1
+"ITA5","Integrin alpha-5 ","ITGA5","197a",1
+"ANXA5","Annexin A5 ","ANXA5","198a",1
+"CD63","CD63 antigen ","CD63","199a",1
+"STXB3","Syntaxin-binding protein 3 ","STXBP3","2",1
+"APOE","Apolipoprotein E ","APOE","20",1
+"CN37","2',3'-cyclic-nucleotide 3'-phosphodiesterase ","CNP","200a",1
+"CSF1","Macrophage colony-stimulating factor 1 ","CSF1","201a",1
+"UBB","Polyubiquitin-B ","UBB","202a",1
+"RAP2A","Ras-related protein Rap-2a ","RAP2A","203a",1
+"RRAS","Ras-related protein R-Ras ","RRAS","204a",1
+"CLUS","Clusterin ","CLU","205a",1
+"HPLN1","Hyaluronan and proteoglycan link protein 1 ","HAPLN1","206a",1
+"LAMC1","Laminin subunit gamma-1 ","LAMC1","207a",1
+"HSP7C","Heat shock cognate 71 kDa protein ","HSPA8","208a",1
+"HSP71","Heat shock 70 kDa protein 1A/1B ","HSPA1A","208b",1
+"HSP72","Heat shock-related 70 kDa protein 2 ","HSPA2","208c",1
+"GRP78","78 kDa glucose-regulated protein ","HSPA5","208d",0.9999
+"KINH","Kinesin-1 heavy chain ","KIF5B","208e",0.987
+"GTR1","Solute carrier family 2, facilitated glucose transporter member 1 ","SLC2A1","209a",1
+"G3P","Glyceraldehyde-3-phosphate dehydrogenase ","GAPDH","21",1
+"RALA","Ras-related protein Ral-A ","RALA","210a",0.9996
+"RALB","Ras-related protein Ral-B ","RALB","210b",0.9996
+"CO6A2","Collagen alpha-2(VI) chain ","COL6A2","211a",1
+"CO6A3","Collagen alpha-3(VI) chain ","COL6A3","212a",1
+"ANXA3","Annexin A3 ","ANXA3","213a",1
+"CSPG2","Versican core protein ","VCAN","214a",1
+"K1C10","Keratin, type I cytoskeletal 10 ","KRT10","215a",1
+"K1C14","Keratin, type I cytoskeletal 14 ","KRT14","215b",1
+"CD59","CD59 glycoprotein ","CD59","216a",1
+"KPYM","Pyruvate kinase PKM ","PKM","217a",1
+"CD44","CD44 antigen ","CD44","218a",1
+"PGCA","Aggrecan core protein ","ACAN","219a",1
+"GDN","Glia-derived nexin ","SERPINE2","22",1
+"ITB4","Integrin beta-4 ","ITGB4","220a",1
+"EPCAM","Epithelial cell adhesion molecule ","EPCAM","221a",1
+"ITA2","Integrin alpha-2 ","ITGA2","222a",1
+"EGLN","Endoglin ","ENG","223a",1
+"ITB5","Integrin beta-5 ","ITGB5","224a",1
+"PTPRA","Receptor-type tyrosine-protein phosphatase alpha ","PTPRA","225a",1
+"PGAM1","Phosphoglycerate mutase 1 ","PGAM1","226a",1
+"SDC1","Syndecan-1 ","SDC1","227a",1
+"LFA3","Lymphocyte function-associated antigen 3 ","CD58","228a",1
+"ITIH2","Inter-alpha-trypsin inhibitor heavy chain H2 ","ITIH2","229a",1
+"LDHB","L-lactate dehydrogenase B chain ","LDHB","23",1
+"FST","Follistatin ","FST","230a",1
+"AT2B1","Plasma membrane calcium-transporting ATPase 1 ","ATP2B1","231a",1
+"AT2B4","Plasma membrane calcium-transporting ATPase 4 ","ATP2B4","231b",1
+"FLNA","Filamin-A ","FLNA","232a",1
+"FLNB","Filamin-B ","FLNB","232b",0.9999
+"5NTD","5'-nucleotidase ","NT5E","233a",1
+"CD9","CD9 antigen ","CD9","234a",1
+"ENPP1","Ectonucleotide pyrophosphatase/phosphodiesterase family member 1 ","ENPP1","235a",1
+"FBLN1","Fibulin-1 ","FBLN1","236a",1
+"B1AHL2","Fibulin-1 ","FBLN1","236b",0.9866
+"ITA6","Integrin alpha-6 ","ITGA6","237a",1
+"COF1","Cofilin-1 ","CFL1","238a",1
+"TENA","Tenascin ","TNC","239a",1
+"TRBM","Thrombomodulin ","THBD","24",1
+"DNJB1","DnaJ homolog subfamily B member 1 ","DNAJB1","240a",1
+"ITA3","Integrin alpha-3 ","ITGA3","241a",1
+"MOES","Moesin ","MSN","242a",1
+"EZRI","Ezrin ","EZR","242b",1
+"RADI","Radixin ","RDX","242c",1
+"STOM","Erythrocyte band 7 integral membrane protein ","STOM","243a",1
+"CD82","CD82 antigen ","CD82","244a",1
+"EPHA2","Ephrin type-A receptor 2 ","EPHA2","245a",1
+"EPHB3","Ephrin type-B receptor 3 ","EPHB3","245b",1
+"SORCN","Sorcin ","SRI","246a",1
+"CTR1","High affinity cationic amino acid transporter 1 ","SLC7A1","247a",1
+"STIP1","Stress-induced-phosphoprotein 1 ","STIP1","248a",1
+"SDC2","Syndecan-2 ","SDC2","249a",1
+"CO1A2","Collagen alpha-2(I) chain ","COL1A2","25",1
+"GPC1","Glypican-1 ","GPC1","250a",1
+"CTNA1","Catenin alpha-1 ","CTNNA1","251a",1
+"TSP4","Thrombospondin-4 ","THBS4","252a",1
+"K1C9","Keratin, type I cytoskeletal 9 ","KRT9","253a",1
+"MYH9","Myosin-9 ","MYH9","254a",1
+"BASI","Basigin ","BSG","255a",1
+"GGT5","Gamma-glutamyltransferase 5 ","GGT5","256a",1
+"COIA1","Collagen alpha-1(XVIII) chain ","COL18A1","257a",1
+"EPS15","Epidermal growth factor receptor substrate 15 ","EPS15","258a",1
+"IQGA1","Ras GTPase-activating-like protein IQGAP1 ","IQGAP1","259a",1
+"ITA2B","Integrin alpha-IIb ","ITGA2B","26",1
+"KC1A","Casein kinase I isoform alpha ","CSNK1A1","260a",1
+"KC1D","Casein kinase I isoform delta ","CSNK1D","261a",1
+"KC1E","Casein kinase I isoform epsilon ","CSNK1E","261b",0.961
+"CD97","CD97 antigen ","CD97","262a",1
+"MMP14","Matrix metalloproteinase-14 ","MMP14","263a",1
+"GDIB","Rab GDP dissociation inhibitor beta ","GDI2","264a",1
+"BCAM","Basal cell adhesion molecule ","BCAM","265a",1
+"RAB5C","Ras-related protein Rab-5C ","RAB5C","266a",1
+"RAB5A","Ras-related protein Rab-5A ","RAB5A","266b",0.9998
+"RAB5B","Ras-related protein Rab-5B ","RAB5B","266c",0.9998
+"RAB7A","Ras-related protein Rab-7a ","RAB7A","267a",1
+"APLP1","Amyloid-like protein 1 ","APLP1","268a",1
+"PLXA3","Plexin-A3 ","PLXNA3","269a",0.9998
+"PLXA2","Plexin-A2 ","PLXNA2","269b",0.8691
+"MET","Hepatocyte growth factor receptor ","MET","27",1
+"IST1","IST1 homolog ","IST1","270a",1
+"AT1B3","Sodium/potassium-transporting ATPase subunit beta-3 ","ATP1B3","271a",1
+"TERA","Transitional endoplasmic reticulum ATPase ","VCP","272a",1
+"LAMB2","Laminin subunit beta-2 ","LAMB2","273a",1
+"CD81","CD81 antigen ","CD81","274a",1
+"TPIS","Triosephosphate isomerase ","TPI1","275a",1
+"ACTB","Actin, cytoplasmic 1 ","ACTB","276a",1
+"ACTC","Actin, alpha cardiac muscle 1 ","ACTC1","276b",1
+"CDC42","Cell division control protein 42 homolog ","CDC42","277a",1
+"RAC1","Ras-related C3 botulinum toxin substrate 1 ","RAC1","277b",1
+"RHOG","Rho-related GTP-binding protein RhoG ","RHOG","277c",1
+"RAB8A","Ras-related protein Rab-8A ","RAB8A","278a",1
+"RAB1B","Ras-related protein Rab-1B ","RAB1B","278b",1
+"RAB10","Ras-related protein Rab-10 ","RAB10","278c",1
+"RAB35","Ras-related protein Rab-35 ","RAB35","278d",1
+"RAB14","Ras-related protein Rab-14 ","RAB14","278e",1
+"RAB13","Ras-related protein Rab-13 ","RAB13","278f",1
+"RAB8B","Ras-related protein Rab-8B ","RAB8B","278g",0.9999
+"RAB34","Ras-related protein Rab-34 ","RAB34","278h",0.987
+"RAB2A","Ras-related protein Rab-2A ","RAB2A","279a",0.9999
+"RAB2B","Ras-related protein Rab-2B ","RAB2B","279b",0.9997
+"ANXA4","Annexin A4 ","ANXA4","28",1
+"UBE2N","Ubiquitin-conjugating enzyme E2 N ","UBE2N","280a",1
+"ARF3","ADP-ribosylation factor 3 ","ARF3","281a",1
+"ARF4","ADP-ribosylation factor 4 ","ARF4","281b",0.9993
+"ARF5","ADP-ribosylation factor 5 ","ARF5","281c",0.8212
+"RAP1B","Ras-related protein Rap-1b ","RAP1B","282a",1
+"RAP1A","Ras-related protein Rap-1A ","RAP1A","282b",1
+"RHOA","Transforming protein RhoA ","RHOA","283a",1
+"RHOB","Rho-related GTP-binding protein RhoB ","RHOB","283b",0.9999
+"SUMO2","Small ubiquitin-related modifier 2 ","SUMO2","284a",1
+"RRAS2","Ras-related protein R-Ras2 ","RRAS2","285a",1
+"CALM","Calmodulin ","CALM1","286a",1
+"RAN","GTP-binding nuclear protein Ran ","RAN","287a",1
+"GBB1","Guanine nucleotide-binding protein G(I)/G(S)/G(T) subunit beta-1 ","GNB1","288a",1
+"GBB2","Guanine nucleotide-binding protein G(I)/G(S)/G(T) subunit beta-2 ","GNB2","288b",1
+"PPIA","Peptidyl-prolyl cis-trans isomerase A ","PPIA","289a",1
+"TACD2","Tumor-associated calcium signal transducer 2 ","TACSTD2","29",1
+"AP2B1","AP-2 complex subunit beta ","AP2B1","290a",1
+"1433Z","14-3-3 protein zeta/delta ","YWHAZ","291a",1
+"1433T","14-3-3 protein theta ","YWHAQ","291b",1
+"1433E","14-3-3 protein epsilon ","YWHAE","291c",1
+"1433B","14-3-3 protein beta/alpha ","YWHAB","291d",1
+"1433G","14-3-3 protein gamma ","YWHAG","291e",1
+"1433F","14-3-3 protein eta ","YWHAH","291f",0.9859
+"DYL1","Dynein light chain 1, cytoplasmic ","DYNLL1","292a",1
+"EF1A1","Elongation factor 1-alpha 1 ","EEF1A1","293a",1
+"TBA4A","Tubulin alpha-4A chain ","TUBA4A","294a",1
+"HBA","Hemoglobin subunit alpha ","HBA1","295a",1
+"JAG1","Protein jagged-1 ","JAG1","296a",1
+"PGBM","Basement membrane-specific heparan sulfate proteoglycan core protein ","HSPG2","297a",1
+"CLH1","Clathrin heavy chain 1 ","CLTC","298a",1
+"IFM3","Interferon-induced transmembrane protein 3 ","IFITM3","299a",1
+"CLIC1","Chloride intracellular channel protein 1 ","CLIC1","3",1
+"CO4A","Complement C4-A ","C4A","30",1
+"CAV1","Caveolin-1 ","CAV1","300a",1
+"UPAR","Urokinase plasminogen activator surface receptor ","PLAUR","301a",1
+"APLP2","Amyloid-like protein 2 ","APLP2","302a",1
+"PRDX1","Peroxiredoxin-1 ","PRDX1","303a",1
+"LG3BP","Galectin-3-binding protein ","LGALS3BP","304a",1
+"MFGM","Lactadherin ","MFGE8","305a",1
+"PTK7","Inactive tyrosine-protein kinase 7 ","PTK7","306a",1
+"ADAM9","Disintegrin and metalloproteinase domain-containing protein 9 ","ADAM9","307a",1
+"SERC3","Serine incorporator 3 ","SERINC3","308a",1
+"RAB31","Ras-related protein Rab-31 ","RAB31","309a",1
+"RB22A","Ras-related protein Rab-22A ","RAB22A","309b",0.9996
+"NARR","Ras-related protein Rab-34, isoform NARR ","RAB34","31",1
+"CD166","CD166 antigen ","ALCAM","310a",1
+"SCRB2","Lysosome membrane protein 2 ","SCARB2","311a",1
+"DSG2","Desmoglein-2 ","DSG2","312a",1
+"FLOT2","Flotillin-2 ","FLOT2","313a",1
+"FAT1","Protocadherin Fat 1 ","FAT1","314a",1
+"MVP","Major vault protein ","MVP","315a",1
+"LTBP1","Latent-transforming growth factor beta-binding protein 1 ","LTBP1","316a",1
+"IMB1","Importin subunit beta-1 ","KPNB1","317a",1
+"PCBP1","Poly(rC)-binding protein 1 ","PCBP1","318a",1
+"PCBP2","Poly(rC)-binding protein 2 ","PCBP2","318b",0.9963
+"BGH3","Transforming growth factor-beta-induced protein ig-h3 ","TGFBI","319a",1
+"SRGN","Serglycin ","SRGN","32",1
+"CIP4","Cdc42-interacting protein 4 ","TRIP10","320a",1
+"AAAT","Neutral amino acid transporter B(0) ","SLC1A5","321a",1
+"MLF2","Myeloid leukemia factor 2 ","MLF2","322a",1
+"RB11B","Ras-related protein Rab-11B ","RAB11B","323a",1
+"LAMA4","Laminin subunit alpha-4 ","LAMA4","324a",1
+"CAH9","Carbonic anhydrase 9 ","CA9","325a",1
+"CEP55","Centrosomal protein of 55 kDa ","CEP55","326a",1
+"BROX","BRO1 domain-containing protein BROX ","BROX","327a",1
+"CD276","CD276 antigen ","CD276","328a",1
+"C2D1A","Coiled-coil and C2 domain-containing protein 1A ","CC2D1A","329a",1
+"H14","Histone H1.4 ","HIST1H1E","33",1
+"CCBE1","Collagen and calcium-binding EGF domain-containing protein 1 ","CCBE1","330a",1
+"TARSH","Target of Nesh-SH3 ","ABI3BP","331a",1
+"GALT7","N-acetylgalactosaminyltransferase 7 ","GALNT7","332a",1
+"CPNE8","Copine-8 ","CPNE8","333a",1
+"CTL2","Choline transporter-like protein 2 ","SLC44A2","334a",1
+"UEVLD","Ubiquitin-conjugating enzyme E2 variant 3 ","UEVLD","335a",1
+"GP116","Probable G-protein coupled receptor 116 ","GPR116","336a",1
+"ARRD1","Arrestin domain-containing protein 1 ","ARRDC1","337a",1
+"S43A3","Solute carrier family 43 member 3 ","SLC43A3","338a",1
+"RAI3","Retinoic acid-induced protein 3 ","GPRC5A","339a",1
+"MPRI","Cation-independent mannose-6-phosphate receptor ","IGF2R","34",1
+"TSN14","Tetraspanin-14 ","TSPAN14","340a",1
+"C99L2","CD99 antigen-like protein 2 ","CD99L2","341a",1
+"SCRB1","Scavenger receptor class B member 1 ","SCARB1","342a",1
+"PDC6I","Programmed cell death 6-interacting protein ","PDCD6IP","343a",1
+"SNX33","Sorting nexin-33 ","SNX33","344a",1
+"MITD1","MIT domain-containing protein 1 ","MITD1","345a",1
+"CLC2B","C-type lectin domain family 2 member B ","CLEC2B","346a",1
+"NICA","Nicastrin ","NCSTN","347a",1
+"NDRG1","Protein NDRG1 ","NDRG1","348a",1
+"PXDN","Peroxidasin homolog ","PXDN","349a",1
+"CO6A1","Collagen alpha-1(VI) chain ","COL6A1","35",1
+"HTRA1","Serine protease HTRA1 ","HTRA1","350a",1
+"IGSF8","Immunoglobulin superfamily member 8 ","IGSF8","351a",1
+"PKHB2","Pleckstrin homology domain-containing family B member 2 ","PLEKHB2","352a",1
+"AP2M1","AP-2 complex subunit mu ","AP2M1","353a",1
+"MB12A","Multivesicular body subunit 12A ","MVB12A","354a",1
+"KIRR1","Kin of IRRE-like protein 1 ","KIRREL","355a",1
+"HPLN3","Hyaluronan and proteoglycan link protein 3 ","HAPLN3","356a",1
+"DNJC7","DnaJ homolog subfamily C member 7 ","DNAJC7","357a",1
+"TS101","Tumor susceptibility gene 101 protein ","TSG101","358a",1
+"CPNE1","Copine-1 ","CPNE1","359a",1
+"FA5","Coagulation factor V ","F5","36",1
+"PKP2","Plakophilin-2 ","PKP2","360a",1
+"SH3G1","Endophilin-A2 ","SH3GL1","361a",1
+"VAMP8","Vesicle-associated membrane protein 8 ","VAMP8","362a",1
+"TMM59","Transmembrane protein 59 ","TMEM59","363a",1
+"TINAL","Tubulointerstitial nephritis antigen-like ","TINAGL1","364a",1
+"EHD1","EH domain-containing protein 1 ","EHD1","365a",1
+"EHD4","EH domain-containing protein 4 ","EHD4","365b",1
+"MB12B","Multivesicular body subunit 12B ","MVB12B","366a",1
+"VP37B","Vacuolar protein sorting-associated protein 37B ","VPS37B","367a",1
+"RHOF","Rho-related GTP-binding protein RhoF ","RHOF","368a",1
+"VTA1","Vacuolar protein sorting-associated protein VTA1 homolog ","VTA1","369a",1
+"TF","Tissue factor ","F3","37",1
+"IL1AP","Interleukin-1 receptor accessory protein ","IL1RAP","370a",1
+"RTN4","Reticulon-4 ","RTN4","371a",1
+"PLS3","Phospholipid scramblase 3 ","PLSCR3","372a",1
+"FA49B","Protein FAM49B ","FAM49B","373a",1
+"MYOF","Myoferlin ","MYOF","374a",1
+"ITSN2","Intersectin-2 ","ITSN2","375a",1
+"CRIM1","Cysteine-rich motor neuron 1 protein ","CRIM1","376a",1
+"RRBP1","Ribosome-binding protein 1 ","RRBP1","377a",1
+"EP15R","Epidermal growth factor receptor substrate 15-like 1 ","EPS15L1","378a",1
+"TMEM2","Transmembrane protein 2 ","TMEM2","379a",1
+"NID1","Nidogen-1 ","NID1","38",1
+"VPS28","Vacuolar protein sorting-associated protein 28 homolog ","VPS28","380a",1
+"PACN3","Protein kinase C and casein kinase substrate in neurons protein 3 ","PACSIN3","381a",1
+"BAG5","BAG family molecular chaperone regulator 5 ","BAG5","382a",1
+"HEG1","Protein HEG homolog 1 ","HEG1","383a",1
+"PACN2","Protein kinase C and casein kinase substrate in neurons protein 2 ","PACSIN2","384a",1
+"DEOC","Putative deoxyribose-phosphate aldolase ","DERA","385a",1
+"PKP3","Plakophilin-3 ","PKP3","386a",1
+"LOXL2","Lysyl oxidase homolog 2 ","LOXL2","387a",1
+"GPC6","Glypican-6 ","GPC6","388a",1
+"KC1G3","Casein kinase I isoform gamma-3 ","CSNK1G3","389a",1
+"PVR","Poliovirus receptor ","PVR","39",1
+"E7ET40","Urokinase-type plasminogen activator chain B ","PLAU","390a",1
+"G5EA09","Syndecan binding protein (Syntenin), isoform CRA_a ","SDCBP","391a",1
+"Q9UEL6","Myelin protein zero-like protein 1 (Fragment) ","MPZL1","392a",1
+"RECK","Reversion-inducing cysteine-rich protein with Kazal motifs ","RECK","393",0.9999
+"COMP","Cartilage oligomeric matrix protein ","COMP","394",0.9999
+"ITA1","Integrin alpha-1 ","ITGA1","395",0.9999
+"ACSL4","Long-chain-fatty-acid--CoA ligase 4 ","ACSL4","396a",0.9999
+"LDHA","L-lactate dehydrogenase A chain ","LDHA","397a",0.9999
+"SAP","Prosaposin ","PSAP","398a",0.9999
+"CLCA","Clathrin light chain A ","CLTA","399a",0.9999
+"PODXL","Podocalyxin ","PODXL","4",1
+"MCP","Membrane cofactor protein ","CD46","40",1
+"RSMB","Small nuclear ribonucleoprotein-associated proteins B and B' ","SNRPB","400a",0.9999
+"UBTD1","Ubiquitin domain-containing protein 1 ","UBTD1","401a",0.9999
+"CLDN1","Claudin domain-containing protein 1 ","CLDND1","402a",0.9996
+"DNJC5","DnaJ homolog subfamily C member 5 ","DNAJC5","403",0.9998
+"LIMS1","LIM and senescent cell antigen-like-containing domain protein 1 ","LIMS1","404a",0.9998
+"CHM1A","Charged multivesicular body protein 1a ","CHMP1A","405a",0.9998
+"TFPI1","Tissue factor pathway inhibitor ","TFPI","406a",0.9997
+"MLF1","Myeloid leukemia factor 1 ","MLF1","407a",0.9997
+"PVRL2","Nectin-2 ","PVRL2","408a",0.9997
+"URP2","Fermitin family homolog 3 ","FERMT3","409a",0.9996
+"CO5A1","Collagen alpha-1(V) chain ","COL5A1","41",1
+"B1AK87","Capping protein (Actin filament) muscle Z-line, beta, isoform CRA_a ","CAPZB","410a",0.9996
+"OAS1","2'-5'-oligoadenylate synthase 1 ","OAS1","411a",0.9995
+"CD47","Leukocyte surface antigen CD47 ","CD47","412a",0.9994
+"VTDB","Vitamin D-binding protein ","GC","413",0.9993
+"PLAK","Junction plakoglobin ","JUP","414",0.9993
+"FAS","Fatty acid synthase ","FASN","415",0.9992
+"SRP09","Signal recognition particle 9 kDa protein ","SRP9","416a",0.9992
+"CDC23","Cell division cycle protein 23 homolog ","CDC23","417",0.9991
+"AP2A2","AP-2 complex subunit alpha-2 ","AP2A2","418a",0.999
+"AP2S1","AP-2 complex subunit sigma ","AP2S1","419a",0.999
+"PPIB","Peptidyl-prolyl cis-trans isomerase B ","PPIB","42",1
+"T106B","Transmembrane protein 106B ","TMEM106B","420a",0.999
+"Q5TEC6","Histone H3 ","HIST2H3PS2","421a",0.9976
+"MP3B2","Microtubule-associated proteins 1A/1B light chain 3 beta 2 ","MAP1LC3B2","422a",0.9985
+"LAMP1","Lysosome-associated membrane glycoprotein 1 ","LAMP1","423",0.9983
+"FCHO2","FCH domain only protein 2 ","FCHO2","424",0.998
+"ANX11","Annexin A11 ","ANXA11","425a",0.998
+"E9PC71","Hippocalcin-like protein 1 ","HPCAL1","426a",0.9963
+"M0R0W6","Tyrosine-protein kinase receptor UFO ","AXL","427a",0.9958
+"UB2V1","Ubiquitin-conjugating enzyme E2 variant 1 ","UBE2V1","428a",0.9923
+"NET4","Netrin-4 ","NTN4","429",0.9892
+"LAMA2","Laminin subunit alpha-2 ","LAMA2","43",1
+"GOGA3","Golgin subfamily A member 3 ","GOLGA3","430",0.9889
+"VINC","Vinculin ","VCL","431",0.9871
+"TSN4","Tetraspanin-4 ","TSPAN4","432",0.987
+"SCAM1","Secretory carrier-associated membrane protein 1 ","SCAMP1","433",0.987
+"ARPC3","Actin-related protein 2/3 complex subunit 3 ","ARPC3","434",0.987
+"LANC1","LanC-like protein 1 ","LANCL1","435",0.987
+"TSN3","Tetraspanin-3 ","TSPAN3","436",0.987
+"FZD7","Frizzled-7 ","FZD7","437",0.987
+"CPNE3","Copine-3 ","CPNE3","438",0.987
+"RHBT3","Rho-related BTB domain-containing protein 3 ","RHOBTB3","439",0.987
+"PTX3","Pentraxin-related protein PTX3 ","PTX3","44",1
+"CO3","Complement C3 ","C3","440",0.987
+"APOC3","Apolipoprotein C-III ","APOC3","441",0.987
+"FIBG","Fibrinogen gamma chain ","FGG","442",0.987
+"TRFL","Lactotransferrin ","LTF","443",0.987
+"CYTB","Cystatin-B ","CSTB","444",0.987
+"VWF","von Willebrand factor ","VWF","445",0.987
+"RLA2","60S acidic ribosomal protein P2 ","RPLP2","446",0.987
+"TETN","Tetranectin ","CLEC3B","447",0.987
+"A2AP","Alpha-2-antiplasmin ","SERPINF2","448",0.987
+"LEG1","Galectin-1 ","LGALS1","449",0.987
+"CTGF","Connective tissue growth factor ","CTGF","45",1
+"CH60","60 kDa heat shock protein, mitochondrial ","HSPD1","450",0.987
+"B4GT1","Beta-1,4-galactosyltransferase 1 ","B4GALT1","451",0.987
+"ITIH1","Inter-alpha-trypsin inhibitor heavy chain H1 ","ITIH1","452",0.987
+"PAR1","Proteinase-activated receptor 1 ","F2R","453",0.987
+"MARCS","Myristoylated alanine-rich C-kinase substrate ","MARCKS","454",0.987
+"SC6A6","Sodium- and chloride-dependent taurine transporter ","SLC6A6","455",0.987
+"GPX4","Phospholipid hydroperoxide glutathione peroxidase, mitochondrial ","GPX4","456",0.987
+"TCPZ","T-complex protein 1 subunit zeta ","CCT6A","457",0.987
+"IMA1","Importin subunit alpha-1 ","KPNA2","458",0.987
+"GDIR2","Rho GDP-dissociation inhibitor 2 ","ARHGDIB","459",0.987
+"SDC4","Syndecan-4 ","SDC4","46",1
+"CAZA1","F-actin-capping protein subunit alpha-1 ","CAPZA1","460",0.987
+"PTTG","Pituitary tumor-transforming gene 1 protein-interacting protein ","PTTG1IP","461",0.987
+"CLD12","Claudin-12 ","CLDN12","462",0.987
+"IF4A1","Eukaryotic initiation factor 4A-I ","EIF4A1","463",0.987
+"ABCE1","ATP-binding cassette sub-family E member 1 ","ABCE1","464",0.987
+"B2MG","Beta-2-microglobulin ","B2M","465",0.987
+"PRS10","26S protease regulatory subunit 10B ","PSMC6","466",0.987
+"RL30","60S ribosomal protein L30 ","RPL30","467",0.987
+"FKB1A","Peptidyl-prolyl cis-trans isomerase FKBP1A ","FKBP1A","468",0.987
+"GRB2","Growth factor receptor-bound protein 2 ","GRB2","469",0.987
+"DNJA1","DnaJ homolog subfamily A member 1 ","DNAJA1","47",1
+"NRG1","Pro-neuregulin-1, membrane-bound isoform ","NRG1","470",0.987
+"TGBR3","Transforming growth factor beta receptor type 3 ","TGFBR3","471",0.987
+"PLP2","Proteolipid protein 2 ","PLP2","472",0.987
+"LMAN2","Vesicular integral-membrane protein VIP36 ","LMAN2","473",0.987
+"DYHC1","Cytoplasmic dynein 1 heavy chain 1 ","DYNC1H1","474",0.987
+"S39AE","Zinc transporter ZIP14 ","SLC39A14","475",0.987
+"STXB2","Syntaxin-binding protein 2 ","STXBP2","476",0.987
+"ANO6","Anoctamin-6 ","ANO6","477",0.987
+"SVEP1","Sushi, von Willebrand factor type A, EGF and pentraxin domain-containing protein 1 ","SVEP1","478",0.987
+"CYBR1","Cytochrome b reductase 1 ","CYBRD1","479",0.987
+"S10AB","Protein S100-A11 ","S100A11","48",1
+"VWA1","von Willebrand factor A domain-containing protein 1 ","VWA1","480",0.987
+"CA122","Uncharacterized protein C1orf122 ","C1orf122","481",0.987
+"GP126","G-protein coupled receptor 126 ","GPR126","482",0.987
+"LSR","Lipolysis-stimulated lipoprotein receptor ","LSR","483",0.987
+"FMNL3","Formin-like protein 3 ","FMNL3","484",0.987
+"A16A1","Aldehyde dehydrogenase family 16 member A1 ","ALDH16A1","485",0.987
+"GPR64","G-protein coupled receptor 64 ","GPR64","486",0.987
+"TXND5","Thioredoxin domain-containing protein 5 ","TXNDC5","487",0.987
+"SHCBP","SHC SH2 domain-binding protein 1 ","SHCBP1","488",0.987
+"GSLG1","Golgi apparatus protein 1 ","GLG1","489",0.987
+"PP1G","Serine/threonine-protein phosphatase PP1-gamma catalytic subunit ","PPP1CC","49",1
+"PRG4","Proteoglycan 4 ","PRG4","490",0.987
+"LFG3","Protein lifeguard 3 ","TMBIM1","491",0.987
+"T4S18","Transmembrane 4 L6 family member 18 ","TM4SF18","492",0.987
+"CRCM1","Calcium release-activated calcium channel protein 1 ","ORAI1","493",0.987
+"CHMP6","Charged multivesicular body protein 6 ","CHMP6","494",0.987
+"HMCN1","Hemicentin-1 ","HMCN1","495",0.987
+"TM9S2","Transmembrane 9 superfamily member 2 ","TM9SF2","496",0.987
+"ERP44","Endoplasmic reticulum resident protein 44 ","ERP44","497",0.987
+"ANGL4","Angiopoietin-related protein 4 ","ANGPTL4","498",0.987
+"SPY4","Protein sprouty homolog 4 ","SPRY4","499",0.987
+"CLD4","Claudin-4 ","CLDN4","5",1
+"TXLNA","Alpha-taxilin ","TXLNA","50",1
+"TOLIP","Toll-interacting protein ","TOLLIP","500",0.987
+"ITFG3","Protein ITFG3 ","ITFG3","501",0.987
+"TXNIP","Thioredoxin-interacting protein ","TXNIP","502",0.987
+"ABCB6","ATP-binding cassette sub-family B member 6, mitochondrial ","ABCB6","503",0.987
+"UBQL4","Ubiquilin-4 ","UBQLN4","504",0.987
+"PD1L1","Programmed cell death 1 ligand 1 ","CD274","505",0.987
+"EGFL7","Epidermal growth factor-like protein 7 ","EGFL7","506",0.987
+"BAIP2","Brain-specific angiogenesis inhibitor 1-associated protein 2 ","BAIAP2","507",0.987
+"ITM2B","Integral membrane protein 2B ","ITM2B","508",0.987
+"LIPE","Endothelial lipase ","LIPG","509",0.987
+"ECE1","Endothelin-converting enzyme 1 ","ECE1","51",1
+"COPG1","Coatomer subunit gamma-1 ","COPG1","510",0.987
+"CLIC4","Chloride intracellular channel protein 4 ","CLIC4","511",0.987
+"M0QY01","Epidermal growth factor receptor substrate 15-like 1 (Fragment) ","EPS15L1","513",0.987
+"R4GN18","Membrane cofactor protein (Fragment) ","CD46","514",0.987
+"SH3K1","SH3 domain-containing kinase-binding protein 1 ","SH3KBP1","515a",0.987
+"EVA1A","Protein eva-1 homolog A ","EVA1A","516a",0.9821
+"PLXB2","Plexin-B2 ","PLXNB2","517",0.9857
+"CAN5","Calpain-5 ","CAPN5","518",0.9857
+"T4S1","Transmembrane 4 L6 family member 1 ","TM4SF1","519",0.9857
+"MUC18","Cell surface glycoprotein MUC18 ","MCAM","52",1
+"LUM","Lumican ","LUM","520",0.9857
+"SC5A3","Sodium/myo-inositol cotransporter ","SLC5A3","521",0.9857
+"AAPK1","5'-AMP-activated protein kinase catalytic subunit alpha-1 ","PRKAA1","522",0.9857
+"GP107","Protein GPR107 ","GPR107","523",0.9857
+"MOV10","Putative helicase MOV-10 ","MOV10","524",0.9857
+"MARK3","MAP/microtubule affinity-regulating kinase 3 ","MARK3","525a",0.9833
+"EREG","Proepiregulin ","EREG","526",0.9845
+"TAGL2","Transgelin-2 ","TAGLN2","527",0.9845
+"GPR56","G-protein coupled receptor 56 ","GPR56","528",0.9845
+"H7C1A5","3-hydroxyisobutyryl-CoA hydrolase, mitochondrial (Fragment) ","HIBCH","529",0.9845
+"RS5","40S ribosomal protein S5 ","RPS5","53",1
+"APOM","Apolipoprotein M ","APOM","530",0.9844
+"PDIA1","Protein disulfide-isomerase ","P4HB","531a",0.9794
+"GTR3","Solute carrier family 2, facilitated glucose transporter member 3 ","SLC2A3","532",0.9832
+"KIF23","Kinesin-like protein KIF23 ","KIF23","533",0.9832
+"PSPB","Pulmonary surfactant-associated protein B ","SFTPB","534",0.9819
+"SYPL1","Synaptophysin-like protein 1 ","SYPL1","535",0.9819
+"PDLI7","PDZ and LIM domain protein 7 ","PDLIM7","536",0.9819
+"PUR9","Bifunctional purine biosynthesis protein PURH ","ATIC","537",0.9806
+"TMPSD","Transmembrane protease serine 13 ","TMPRSS13","538",0.9794
+"S52A2","Solute carrier family 52, riboflavin transporter, member 2 ","SLC52A2","539",0.9794
+"CD151","CD151 antigen ","CD151","54",1
+"PDCD6","Programmed cell death protein 6 ","PDCD6","540",0.9781
+"LEG8","Galectin-8 ","LGALS8","541",0.9769
+"ASM3B","Acid sphingomyelinase-like phosphodiesterase 3b ","SMPDL3B","542",0.9769
+"ITM2C","Integral membrane protein 2C ","ITM2C","543",0.9756
+"PPIE","Peptidyl-prolyl cis-trans isomerase E ","PPIE","544",0.9756
+"TFG","Protein TFG ","TFG","545",0.9752
+"CAH12","Carbonic anhydrase 12 ","CA12","546",0.9743
+"DRG1","Developmentally-regulated GTP-binding protein 1 ","DRG1","547",0.9743
+"ACOC","Cytoplasmic aconitate hydratase ","ACO1","548",0.9731
+"G137A","Integral membrane protein GPR137 ","GPR137","549",0.9731
+"MASP1","Mannan-binding lectin serine protease 1 ","MASP1","55",1
+"MYO1C","Unconventional myosin-Ic ","MYO1C","550",0.9725
+"TMED2","Transmembrane emp24 domain-containing protein 2 ","TMED2","551",0.9719
+"DNJB4","DnaJ homolog subfamily B member 4 ","DNAJB4","552",0.9719
+"HIPK3","Homeodomain-interacting protein kinase 3 ","HIPK3","553",0.9706
+"H7C416","Protein phosphatase inhibitor 2 (Fragment) ","PPP1R2","554",0.9681
+"RYR2","Ryanodine receptor 2 ","RYR2","555",0.9535
+"CRUM2","Protein crumbs homolog 2 ","CRB2","556",0.9523
+"ANGL2","Angiopoietin-related protein 2 ","ANGPTL2","557",0.9487
+"SNG2","Synaptogyrin-2 ","SYNGR2","558a",0.9438
+"PTCD2","Pentatricopeptide repeat-containing protein 2, mitochondrial ","PTCD2","559",0.9475
+"MRP","MARCKS-related protein ","MARCKSL1","56",1
+"TOR1B","Torsin-1B ","TOR1B","560",0.944
+"EFNB1","Ephrin-B1 ","EFNB1","561",0.9334
+"HCK","Tyrosine-protein kinase HCK ","HCK","562",0.93
+"SAHH2","Putative adenosylhomocysteinase 2 ","AHCYL1","563",0.9266
+"GALT2","Polypeptide N-acetylgalactosaminyltransferase 2 ","GALNT2","564",0.9243
+"ATD2B","ATPase family AAA domain-containing protein 2B ","ATAD2B","565",0.9198
+"CLCB","Clathrin light chain B ","CLTB","566",0.9119
+"TSC2","Tuberin ","TSC2","567",0.9086
+"N2DL3","NKG2D ligand 3 ","ULBP3","568",0.9075
+"GSK3B","Glycogen synthase kinase-3 beta ","GSK3B","57",1
+"CO9","Complement component C9 ","C9","571",0.8999
+"K7EL72","Cytohesin-1 ","CYTH1","572",0.8945
+"CO5","Complement C5 ","C5","573",0.8881
+"DDX6","Probable ATP-dependent RNA helicase DDX6 ","DDX6","574",0.8777
+"H0YBI8","Vascular endothelial growth factor A (Fragment) ","VEGFA","575a",0.8717
+"RSU1","Ras suppressor protein 1 ","RSU1","576",0.8625
+"MUC16","Mucin-16 ","MUC16","578a",0.8592
+"PAR2","Proteinase-activated receptor 2 ","F2RL1","579",0.8575
+"CA2D1","Voltage-dependent calcium channel subunit alpha-2/delta-1 ","CACNA2D1","58",1
+"FZD2","Frizzled-2 ","FZD2","580",0.8555
+"BLK","Tyrosine-protein kinase Blk ","BLK","581",0.8419
+"CAV2","Caveolin-2 ","CAV2","582",0.8352
+"VP37D","Vacuolar protein sorting-associated protein 37D ","VPS37D","583",0.8278
+"ANTR2","Anthrax toxin receptor 2 ","ANTXR2","59",1
+"SCAM3","Secretory carrier-associated membrane protein 3 ","SCAMP3","6",1
+"ARF6","ADP-ribosylation factor 6 ","ARF6","60",1
+"H4","Histone H4 ","HIST1H4A","61",1
+"VAMP2","Vesicle-associated membrane protein 2 ","VAMP2","62",1
+"CXAR","Coxsackievirus and adenovirus receptor ","CXADR","63",1
+"TCPB","T-complex protein 1 subunit beta ","CCT2","64",1
+"BASP1","Brain acid soluble protein 1 ","BASP1","65",1
+"DCD","Dermcidin ","DCD","66",1
+"MUC5A","Mucin-5AC (Fragments) ","MUC5AC","67",1
+"LAT1","Large neutral amino acids transporter small subunit 1 ","SLC7A5","68",1
+"ROR1","Tyrosine-protein kinase transmembrane receptor ROR1 ","ROR1","69",1
+"STX7","Syntaxin-7 ","STX7","7",1
+"PLOD1","Procollagen-lysine,2-oxoglutarate 5-dioxygenase 1 ","PLOD1","70",1
+"MUC2","Mucin-2 ","MUC2","71",1
+"ITIH3","Inter-alpha-trypsin inhibitor heavy chain H3 ","ITIH3","72",1
+"LRP1","Prolow-density lipoprotein receptor-related protein 1 ","LRP1","73",1
+"AHNK","Neuroblast differentiation-associated protein AHNAK ","AHNAK","74",1
+"PTPRJ","Receptor-type tyrosine-protein phosphatase eta ","PTPRJ","75",1
+"ADA15","Disintegrin and metalloproteinase domain-containing protein 15 ","ADAM15","76",1
+"TPBG","Trophoblast glycoprotein ","TPBG","77",1
+"DAG1","Dystroglycan ","DAG1","78",1
+"NHRF2","Na(+)/H(+) exchange regulatory cofactor NHE-RF2 ","SLC9A3R2","79",1
+"COPT1","High affinity copper uptake protein 1 ","SLC31A1","8",1
+"OCLN","Occludin ","OCLN","80",1
+"CSPG4","Chondroitin sulfate proteoglycan 4 ","CSPG4","81",1
+"QSOX2","Sulfhydryl oxidase 2 ","QSOX2","82",1
+"GOGA7","Golgin subfamily A member 7 ","GOLGA7","83",1
+"SERC5","Serine incorporator 5 ","SERINC5","84",1
+"HORN","Hornerin ","HRNR","85",1
+"NOSTN","Nostrin ","NOSTRIN","86",1
+"FGRL1","Fibroblast growth factor receptor-like 1 ","FGFRL1","87",1
+"CEMIP","Cell migration-inducing and hyaluronan-binding protein ","CEMIP","88",1
+"CTL1","Choline transporter-like protein 1 ","SLC44A1","89",1
+"EDIL3","EGF-like repeat and discoidin I-like domain-containing protein 3 ","EDIL3","9",1
+"SDCG3","Serologically defined colon cancer antigen 3 ","SDCCAG3","90",1
+"S10AG","Protein S100-A16 ","S100A16","91",1
+"SNF8","Vacuolar-sorting protein SNF8 ","SNF8","92",1
+"MEG10","Multiple epidermal growth factor-like domains protein 10 ","MEGF10","93",1
+"DCBD2","Discoidin, CUB and LCCL domain-containing protein 2 ","DCBLD2","94",1
+"S29A1","Equilibrative nucleoside transporter 1 ","SLC29A1","95",1
+"CIB1","Calcium and integrin-binding protein 1 ","CIB1","96",1
+"TCPH","T-complex protein 1 subunit eta ","CCT7","97",1
+"VPS25","Vacuolar protein-sorting-associated protein 25 ","VPS25","98",1
+"ZDHC5","Palmitoyltransferase ZDHHC5 ","ZDHHC5","99",1
